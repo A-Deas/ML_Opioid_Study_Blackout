@@ -1,0 +1,26 @@
+Job started on Mon Jun  8 10:03:05 AM EDT 2026
+
+Loading data from DuckDB...
+Loaded 1,760,052 patients.
+
+Running Optuna hyperparameter search:
+    Metric: AUC_ROC
+    Trials: 50
+    Tuning folds: 12
+
+Best AUC_ROC: 0.8508
+Best parameters:
+    max_depth                 = 3
+    learning_rate             = 0.06517442364806139
+    n_estimators              = 550
+    min_child_weight          = 13
+    subsample                 = 0.9065018570294778
+    colsample_bytree          = 0.5238802601261564
+    gamma                     = 1.3271215119049589
+    reg_lambda                = 1.2561358265758813
+    reg_alpha                 = 0.5495289363985063
+    scale_pos_weight          = 100
+    max_delta_step            = 1
+
+Best parameters saved to /mnt/pfb_edhdata/pfb_edhdata_bps/deasa/ML_Opioid_Study_FB/Modeling/XGBoost/Optimize/optimized_params_AUC_ROC.json
+Job finished on Mon Jun  8 10:18:39 AM EDT 2026

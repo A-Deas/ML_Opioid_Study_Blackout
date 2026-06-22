@@ -1,0 +1,4902 @@
+Job started on Mon Jun  8 12:33:07 PM EDT 2026
+
+Loading data from DuckDB...
+Loaded 1,760,052 patients.
+Feature matrix: 1,760,052 rows x 56 columns
+
+----------------- Fold 1/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,350 | num_pos = 10 | pct_pos = 0.004255 | avg_pred_prob = 0.258
+Level 2: total_patients = 2,439 | num_pos = 19 | pct_pos = 0.007790 | avg_pred_prob = 0.422
+Level 3: total_patients = 2,427 | num_pos = 46 | pct_pos = 0.018953 | avg_pred_prob = 0.543
+Level 4: total_patients = 2,416 | num_pos = 44 | pct_pos = 0.018212 | avg_pred_prob = 0.644
+Level 5: total_patients = 2,446 | num_pos = 69 | pct_pos = 0.028209 | avg_pred_prob = 0.730
+Level 6: total_patients = 2,329 | num_pos = 103 | pct_pos = 0.044225 | avg_pred_prob = 0.803
+Level 7: total_patients = 2,559 | num_pos = 218 | pct_pos = 0.085190 | avg_pred_prob = 0.866
+Level 8: total_patients = 2,460 | num_pos = 299 | pct_pos = 0.121545 | avg_pred_prob = 0.916
+Level 9: total_patients = 2,515 | num_pos = 580 | pct_pos = 0.230616 | avg_pred_prob = 0.956
+Level 10: total_patients = 1,151 | num_pos = 405 | pct_pos = 0.351868 | avg_pred_prob = 0.979
+Level 11: total_patients = 977 | num_pos = 534 | pct_pos = 0.546571 | avg_pred_prob = 0.988
+Level 12: total_patients = 186 | num_pos = 131 | pct_pos = 0.704301 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 2/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.70, t5 = 0.77, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,364 | num_pos = 11 | pct_pos = 0.004653 | avg_pred_prob = 0.252
+Level 2: total_patients = 2,491 | num_pos = 31 | pct_pos = 0.012445 | avg_pred_prob = 0.420
+Level 3: total_patients = 2,479 | num_pos = 35 | pct_pos = 0.014119 | avg_pred_prob = 0.546
+Level 4: total_patients = 2,428 | num_pos = 51 | pct_pos = 0.021005 | avg_pred_prob = 0.648
+Level 5: total_patients = 2,427 | num_pos = 71 | pct_pos = 0.029254 | avg_pred_prob = 0.735
+Level 6: total_patients = 2,369 | num_pos = 122 | pct_pos = 0.051499 | avg_pred_prob = 0.809
+Level 7: total_patients = 2,423 | num_pos = 191 | pct_pos = 0.078828 | avg_pred_prob = 0.869
+Level 8: total_patients = 2,371 | num_pos = 287 | pct_pos = 0.121046 | avg_pred_prob = 0.917
+Level 9: total_patients = 2,375 | num_pos = 503 | pct_pos = 0.211789 | avg_pred_prob = 0.956
+Level 10: total_patients = 1,275 | num_pos = 480 | pct_pos = 0.376471 | avg_pred_prob = 0.978
+Level 11: total_patients = 1,059 | num_pos = 548 | pct_pos = 0.517469 | avg_pred_prob = 0.988
+Level 12: total_patients = 194 | num_pos = 128 | pct_pos = 0.659794 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 3/12 -----------------
+
+t1 = 0.36, t2 = 0.49, t3 = 0.60, t4 = 0.70, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,369 | num_pos = 16 | pct_pos = 0.006754 | avg_pred_prob = 0.258
+Level 2: total_patients = 2,503 | num_pos = 27 | pct_pos = 0.010787 | avg_pred_prob = 0.425
+Level 3: total_patients = 2,478 | num_pos = 41 | pct_pos = 0.016546 | avg_pred_prob = 0.547
+Level 4: total_patients = 2,534 | num_pos = 51 | pct_pos = 0.020126 | avg_pred_prob = 0.651
+Level 5: total_patients = 2,442 | num_pos = 79 | pct_pos = 0.032351 | avg_pred_prob = 0.740
+Level 6: total_patients = 2,379 | num_pos = 122 | pct_pos = 0.051282 | avg_pred_prob = 0.812
+Level 7: total_patients = 2,365 | num_pos = 196 | pct_pos = 0.082875 | avg_pred_prob = 0.872
+Level 8: total_patients = 2,353 | num_pos = 282 | pct_pos = 0.119847 | avg_pred_prob = 0.919
+Level 9: total_patients = 2,499 | num_pos = 580 | pct_pos = 0.232093 | avg_pred_prob = 0.956
+Level 10: total_patients = 1,219 | num_pos = 451 | pct_pos = 0.369975 | avg_pred_prob = 0.978
+Level 11: total_patients = 932 | num_pos = 486 | pct_pos = 0.521459 | avg_pred_prob = 0.988
+Level 12: total_patients = 182 | num_pos = 127 | pct_pos = 0.697802 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 4/12 -----------------
+
+t1 = 0.38, t2 = 0.51, t3 = 0.61, t4 = 0.70, t5 = 0.78, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,354 | num_pos = 14 | pct_pos = 0.005947 | avg_pred_prob = 0.283
+Level 2: total_patients = 2,521 | num_pos = 25 | pct_pos = 0.009917 | avg_pred_prob = 0.448
+Level 3: total_patients = 2,452 | num_pos = 34 | pct_pos = 0.013866 | avg_pred_prob = 0.563
+Level 4: total_patients = 2,396 | num_pos = 59 | pct_pos = 0.024624 | avg_pred_prob = 0.660
+Level 5: total_patients = 2,552 | num_pos = 83 | pct_pos = 0.032524 | avg_pred_prob = 0.745
+Level 6: total_patients = 2,340 | num_pos = 128 | pct_pos = 0.054701 | avg_pred_prob = 0.815
+Level 7: total_patients = 2,415 | num_pos = 186 | pct_pos = 0.077019 | avg_pred_prob = 0.872
+Level 8: total_patients = 2,465 | num_pos = 322 | pct_pos = 0.130629 | avg_pred_prob = 0.919
+Level 9: total_patients = 2,392 | num_pos = 541 | pct_pos = 0.226171 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,270 | num_pos = 476 | pct_pos = 0.374803 | avg_pred_prob = 0.979
+Level 11: total_patients = 904 | num_pos = 458 | pct_pos = 0.506637 | avg_pred_prob = 0.988
+Level 12: total_patients = 194 | num_pos = 132 | pct_pos = 0.680412 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 5/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,435 | num_pos = 15 | pct_pos = 0.006160 | avg_pred_prob = 0.250
+Level 2: total_patients = 2,469 | num_pos = 27 | pct_pos = 0.010936 | avg_pred_prob = 0.424
+Level 3: total_patients = 2,473 | num_pos = 36 | pct_pos = 0.014557 | avg_pred_prob = 0.545
+Level 4: total_patients = 2,460 | num_pos = 54 | pct_pos = 0.021951 | avg_pred_prob = 0.647
+Level 5: total_patients = 2,396 | num_pos = 82 | pct_pos = 0.034224 | avg_pred_prob = 0.732
+Level 6: total_patients = 2,372 | num_pos = 124 | pct_pos = 0.052277 | avg_pred_prob = 0.804
+Level 7: total_patients = 2,383 | num_pos = 200 | pct_pos = 0.083928 | avg_pred_prob = 0.866
+Level 8: total_patients = 2,437 | num_pos = 316 | pct_pos = 0.129668 | avg_pred_prob = 0.915
+Level 9: total_patients = 2,436 | num_pos = 542 | pct_pos = 0.222496 | avg_pred_prob = 0.956
+Level 10: total_patients = 1,190 | num_pos = 435 | pct_pos = 0.365546 | avg_pred_prob = 0.978
+Level 11: total_patients = 997 | num_pos = 482 | pct_pos = 0.483450 | avg_pred_prob = 0.988
+Level 12: total_patients = 206 | num_pos = 145 | pct_pos = 0.703883 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 6/12 -----------------
+
+t1 = 0.37, t2 = 0.50, t3 = 0.61, t4 = 0.70, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,293 | num_pos = 14 | pct_pos = 0.006106 | avg_pred_prob = 0.270
+Level 2: total_patients = 2,461 | num_pos = 19 | pct_pos = 0.007720 | avg_pred_prob = 0.438
+Level 3: total_patients = 2,374 | num_pos = 41 | pct_pos = 0.017270 | avg_pred_prob = 0.555
+Level 4: total_patients = 2,413 | num_pos = 52 | pct_pos = 0.021550 | avg_pred_prob = 0.655
+Level 5: total_patients = 2,435 | num_pos = 67 | pct_pos = 0.027515 | avg_pred_prob = 0.740
+Level 6: total_patients = 2,452 | num_pos = 120 | pct_pos = 0.048940 | avg_pred_prob = 0.810
+Level 7: total_patients = 2,539 | num_pos = 184 | pct_pos = 0.072469 | avg_pred_prob = 0.870
+Level 8: total_patients = 2,398 | num_pos = 293 | pct_pos = 0.122185 | avg_pred_prob = 0.918
+Level 9: total_patients = 2,481 | num_pos = 576 | pct_pos = 0.232164 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,166 | num_pos = 399 | pct_pos = 0.342196 | avg_pred_prob = 0.978
+Level 11: total_patients = 1,015 | num_pos = 529 | pct_pos = 0.521182 | avg_pred_prob = 0.987
+Level 12: total_patients = 227 | num_pos = 164 | pct_pos = 0.722467 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 7/12 -----------------
+
+t1 = 0.34, t2 = 0.48, t3 = 0.59, t4 = 0.68, t5 = 0.76, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,313 | num_pos = 11 | pct_pos = 0.004756 | avg_pred_prob = 0.245
+Level 2: total_patients = 2,441 | num_pos = 20 | pct_pos = 0.008193 | avg_pred_prob = 0.409
+Level 3: total_patients = 2,468 | num_pos = 39 | pct_pos = 0.015802 | avg_pred_prob = 0.533
+Level 4: total_patients = 2,477 | num_pos = 52 | pct_pos = 0.020993 | avg_pred_prob = 0.636
+Level 5: total_patients = 2,437 | num_pos = 75 | pct_pos = 0.030776 | avg_pred_prob = 0.725
+Level 6: total_patients = 2,432 | num_pos = 124 | pct_pos = 0.050987 | avg_pred_prob = 0.801
+Level 7: total_patients = 2,529 | num_pos = 198 | pct_pos = 0.078292 | avg_pred_prob = 0.866
+Level 8: total_patients = 2,400 | num_pos = 312 | pct_pos = 0.130000 | avg_pred_prob = 0.918
+Level 9: total_patients = 2,428 | num_pos = 571 | pct_pos = 0.235173 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,199 | num_pos = 428 | pct_pos = 0.356964 | avg_pred_prob = 0.979
+Level 11: total_patients = 929 | num_pos = 501 | pct_pos = 0.539290 | avg_pred_prob = 0.989
+Level 12: total_patients = 201 | num_pos = 127 | pct_pos = 0.631841 | avg_pred_prob = 0.995
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 8/12 -----------------
+
+t1 = 0.37, t2 = 0.50, t3 = 0.61, t4 = 0.70, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,408 | num_pos = 8 | pct_pos = 0.003322 | avg_pred_prob = 0.270
+Level 2: total_patients = 2,437 | num_pos = 28 | pct_pos = 0.011490 | avg_pred_prob = 0.437
+Level 3: total_patients = 2,362 | num_pos = 40 | pct_pos = 0.016935 | avg_pred_prob = 0.557
+Level 4: total_patients = 2,429 | num_pos = 51 | pct_pos = 0.020996 | avg_pred_prob = 0.655
+Level 5: total_patients = 2,532 | num_pos = 87 | pct_pos = 0.034360 | avg_pred_prob = 0.740
+Level 6: total_patients = 2,446 | num_pos = 111 | pct_pos = 0.045380 | avg_pred_prob = 0.811
+Level 7: total_patients = 2,478 | num_pos = 183 | pct_pos = 0.073850 | avg_pred_prob = 0.870
+Level 8: total_patients = 2,450 | num_pos = 343 | pct_pos = 0.140000 | avg_pred_prob = 0.918
+Level 9: total_patients = 2,406 | num_pos = 545 | pct_pos = 0.226517 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,133 | num_pos = 411 | pct_pos = 0.362754 | avg_pred_prob = 0.978
+Level 11: total_patients = 945 | num_pos = 491 | pct_pos = 0.519577 | avg_pred_prob = 0.988
+Level 12: total_patients = 228 | num_pos = 160 | pct_pos = 0.701754 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 9/12 -----------------
+
+t1 = 0.39, t2 = 0.52, t3 = 0.62, t4 = 0.71, t5 = 0.79, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,308 | num_pos = 13 | pct_pos = 0.005633 | avg_pred_prob = 0.288
+Level 2: total_patients = 2,537 | num_pos = 21 | pct_pos = 0.008277 | avg_pred_prob = 0.456
+Level 3: total_patients = 2,607 | num_pos = 43 | pct_pos = 0.016494 | avg_pred_prob = 0.573
+Level 4: total_patients = 2,416 | num_pos = 65 | pct_pos = 0.026904 | avg_pred_prob = 0.671
+Level 5: total_patients = 2,405 | num_pos = 80 | pct_pos = 0.033264 | avg_pred_prob = 0.751
+Level 6: total_patients = 2,432 | num_pos = 119 | pct_pos = 0.048931 | avg_pred_prob = 0.816
+Level 7: total_patients = 2,397 | num_pos = 161 | pct_pos = 0.067167 | avg_pred_prob = 0.872
+Level 8: total_patients = 2,258 | num_pos = 280 | pct_pos = 0.124004 | avg_pred_prob = 0.917
+Level 9: total_patients = 2,461 | num_pos = 565 | pct_pos = 0.229581 | avg_pred_prob = 0.954
+Level 10: total_patients = 1,233 | num_pos = 453 | pct_pos = 0.367397 | avg_pred_prob = 0.977
+Level 11: total_patients = 983 | num_pos = 496 | pct_pos = 0.504578 | avg_pred_prob = 0.987
+Level 12: total_patients = 217 | num_pos = 162 | pct_pos = 0.746544 | avg_pred_prob = 0.993
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 10/12 -----------------
+
+t1 = 0.36, t2 = 0.49, t3 = 0.59, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,458 | num_pos = 9 | pct_pos = 0.003662 | avg_pred_prob = 0.258
+Level 2: total_patients = 2,314 | num_pos = 25 | pct_pos = 0.010804 | avg_pred_prob = 0.424
+Level 3: total_patients = 2,464 | num_pos = 34 | pct_pos = 0.013799 | avg_pred_prob = 0.543
+Level 4: total_patients = 2,352 | num_pos = 44 | pct_pos = 0.018707 | avg_pred_prob = 0.642
+Level 5: total_patients = 2,487 | num_pos = 80 | pct_pos = 0.032167 | avg_pred_prob = 0.730
+Level 6: total_patients = 2,555 | num_pos = 114 | pct_pos = 0.044618 | avg_pred_prob = 0.806
+Level 7: total_patients = 2,396 | num_pos = 189 | pct_pos = 0.078881 | avg_pred_prob = 0.868
+Level 8: total_patients = 2,451 | num_pos = 337 | pct_pos = 0.137495 | avg_pred_prob = 0.917
+Level 9: total_patients = 2,429 | num_pos = 570 | pct_pos = 0.234664 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,204 | num_pos = 453 | pct_pos = 0.376246 | avg_pred_prob = 0.979
+Level 11: total_patients = 920 | num_pos = 466 | pct_pos = 0.506522 | avg_pred_prob = 0.988
+Level 12: total_patients = 224 | num_pos = 137 | pct_pos = 0.611607 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 11/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,346 | num_pos = 4 | pct_pos = 0.001705 | avg_pred_prob = 0.261
+Level 2: total_patients = 2,403 | num_pos = 26 | pct_pos = 0.010820 | avg_pred_prob = 0.424
+Level 3: total_patients = 2,502 | num_pos = 45 | pct_pos = 0.017986 | avg_pred_prob = 0.544
+Level 4: total_patients = 2,475 | num_pos = 47 | pct_pos = 0.018990 | avg_pred_prob = 0.646
+Level 5: total_patients = 2,396 | num_pos = 84 | pct_pos = 0.035058 | avg_pred_prob = 0.734
+Level 6: total_patients = 2,394 | num_pos = 122 | pct_pos = 0.050961 | avg_pred_prob = 0.806
+Level 7: total_patients = 2,385 | num_pos = 190 | pct_pos = 0.079665 | avg_pred_prob = 0.867
+Level 8: total_patients = 2,632 | num_pos = 333 | pct_pos = 0.126520 | avg_pred_prob = 0.917
+Level 9: total_patients = 2,323 | num_pos = 514 | pct_pos = 0.221266 | avg_pred_prob = 0.955
+Level 10: total_patients = 1,150 | num_pos = 411 | pct_pos = 0.357391 | avg_pred_prob = 0.978
+Level 11: total_patients = 1,005 | num_pos = 517 | pct_pos = 0.514428 | avg_pred_prob = 0.987
+Level 12: total_patients = 243 | num_pos = 165 | pct_pos = 0.679012 | avg_pred_prob = 0.994
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+----------------- Fold 12/12 -----------------
+
+t1 = 0.32, t2 = 0.46, t3 = 0.58, t4 = 0.68, t5 = 0.76, t6 = 0.84, t7 = 0.89, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,380 | num_pos = 14 | pct_pos = 0.005882 | avg_pred_prob = 0.226
+Level 2: total_patients = 2,447 | num_pos = 30 | pct_pos = 0.012260 | avg_pred_prob = 0.395
+Level 3: total_patients = 2,462 | num_pos = 41 | pct_pos = 0.016653 | avg_pred_prob = 0.519
+Level 4: total_patients = 2,467 | num_pos = 55 | pct_pos = 0.022294 | avg_pred_prob = 0.629
+Level 5: total_patients = 2,435 | num_pos = 65 | pct_pos = 0.026694 | avg_pred_prob = 0.723
+Level 6: total_patients = 2,510 | num_pos = 119 | pct_pos = 0.047410 | avg_pred_prob = 0.802
+Level 7: total_patients = 2,425 | num_pos = 193 | pct_pos = 0.079588 | avg_pred_prob = 0.866
+Level 8: total_patients = 2,479 | num_pos = 345 | pct_pos = 0.139169 | avg_pred_prob = 0.918
+Level 9: total_patients = 2,272 | num_pos = 493 | pct_pos = 0.216989 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,213 | num_pos = 467 | pct_pos = 0.384996 | avg_pred_prob = 0.979
+Level 11: total_patients = 944 | num_pos = 488 | pct_pos = 0.516949 | avg_pred_prob = 0.989
+Level 12: total_patients = 220 | num_pos = 148 | pct_pos = 0.672727 | avg_pred_prob = 0.995
+
+Running data analysis on the risk levels for all...
+Data analysis complete.
+
+Running data analysis on the risk levels for pos...
+Data analysis complete.
+
+Running data analysis on the risk levels for neg...
+Data analysis complete.
+
+------------------------------------------------------------------------------------------
+-------------------- Level 1 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  70.142998
+1              NumVisits  50.973999
+5    TotalDaysSupply_Max  18.455999
+4   TotalDaysSupply_Mean  14.077000
+3    TotalDaysSupply_Min   9.824000
+8                MME_Max   7.710000
+7               MME_Mean   7.331000
+6                MME_Min   6.935000
+2             TotalNumRx   4.673000
+17     NumRx_Hydrocodone   2.867000
+11          NumFills_Max   1.274000
+20        NumRx_Tramadol   1.219000
+10         NumFills_Mean   1.156000
+9           NumFills_Min   1.053000
+12       NumRx_Oxycodone   0.399000
+21         NumRx_Codeine   0.164000
+22   NumRx_Hydromorphone   0.012000
+18        NumRx_Morphine   0.008000
+23   NumRx_Buprenorphine   0.003000
+14      NumRx_Meperidine   0.001000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.695
+11           Obesity_Ever          0.604
+16         Arthritis_Ever          0.604
+12          Diabetes_Ever          0.549
+5         Depression_Ever          0.277
+9               PTSD_Ever          0.259
+6            Anxiety_Ever          0.245
+18           PainNEC_Ever          0.228
+15      HeartFailure_Ever          0.169
+13              COPD_Ever          0.158
+14            Asthma_Ever          0.146
+21  FamilyDisruption_Ever          0.099
+19    MyofascialPain_Ever          0.098
+22        TobaccoUse_Ever          0.044
+10              ADHD_Ever          0.029
+0         AlcoholUse_Ever          0.011
+7    BipolarDisorder_Ever          0.008
+8      Schizophrenia_Ever          0.007
+20    EatingDisorder_Ever          0.007
+24               HIV_Ever          0.002
+1        CannabisUse_Ever          0.002
+23              HepC_Ever          0.001
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.836
+HISPANIC OR LATINO               0.098
+UNKNOWN BY PATIENT               0.034
+DECLINED TO ANSWER               0.033
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.941
+Yes, Screened reports MST                  0.054
+Screened Declines to answer                0.005
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.667
+BLACK OR AFRICAN AMERICAN                           0.194
+DECLINED TO ANSWER                                  0.057
+ASIAN                                               0.029
+UNKNOWN BY PATIENT                                  0.024
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.020
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+WHITE NOT OF HISP ORIG                              0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.333
+Tramadol                0.305
+Oxycodone               0.230
+Codeine                 0.123
+Hydromorphone           0.005
+Morphine                0.003
+Buprenorphine           0.000
+Meperidine              0.000
+Fentanyl                0.000
+Methadone               0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.790
+DIVORCED                0.091
+NEVER MARRIED           0.059
+WIDOWED                 0.038
+UNKNOWN                 0.009
+SEPARATED               0.008
+*Missing*               0.003
+WIDOW/WIDOWER           0.001
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.827
+FEMALE             0.173
+
+------------------------------------------------------------------------------------------
+-------------------- Level 2 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  67.486000
+1              NumVisits  45.963001
+5    TotalDaysSupply_Max  23.809000
+4   TotalDaysSupply_Mean  16.934999
+3    TotalDaysSupply_Min  10.576000
+8                MME_Max   7.949000
+7               MME_Mean   7.430000
+6                MME_Min   6.880000
+2             TotalNumRx   5.574000
+17     NumRx_Hydrocodone   3.060000
+20        NumRx_Tramadol   1.637000
+11          NumFills_Max   1.394000
+10         NumFills_Mean   1.207000
+9           NumFills_Min   1.059000
+12       NumRx_Oxycodone   0.517000
+21         NumRx_Codeine   0.233000
+18        NumRx_Morphine   0.081000
+22   NumRx_Hydromorphone   0.018000
+23   NumRx_Buprenorphine   0.014000
+24       NumRx_Methadone   0.012000
+14      NumRx_Meperidine   0.002000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+13        NumRx_Fentanyl   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.705
+11           Obesity_Ever          0.533
+16         Arthritis_Ever          0.513
+12          Diabetes_Ever          0.491
+5         Depression_Ever          0.375
+18           PainNEC_Ever          0.328
+9               PTSD_Ever          0.310
+6            Anxiety_Ever          0.290
+13              COPD_Ever          0.179
+15      HeartFailure_Ever          0.159
+14            Asthma_Ever          0.121
+19    MyofascialPain_Ever          0.105
+21  FamilyDisruption_Ever          0.100
+22        TobaccoUse_Ever          0.091
+10              ADHD_Ever          0.034
+0         AlcoholUse_Ever          0.030
+7    BipolarDisorder_Ever          0.016
+1        CannabisUse_Ever          0.008
+20    EatingDisorder_Ever          0.007
+8      Schizophrenia_Ever          0.007
+24               HIV_Ever          0.004
+23              HepC_Ever          0.002
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.858
+HISPANIC OR LATINO               0.092
+DECLINED TO ANSWER               0.031
+UNKNOWN BY PATIENT               0.019
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.924
+Yes, Screened reports MST                  0.067
+Screened Declines to answer                0.008
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.692
+BLACK OR AFRICAN AMERICAN                           0.200
+DECLINED TO ANSWER                                  0.052
+UNKNOWN BY PATIENT                                  0.016
+ASIAN                                               0.015
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.014
+AMERICAN INDIAN OR ALASKA NATIVE                    0.008
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.330
+Tramadol                0.301
+Oxycodone               0.246
+Codeine                 0.110
+Hydromorphone           0.006
+Morphine                0.005
+Buprenorphine           0.001
+Meperidine              0.000
+Fentanyl                0.000
+Methadone               0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.684
+DIVORCED                0.153
+NEVER MARRIED           0.088
+WIDOWED                 0.045
+SEPARATED               0.018
+UNKNOWN                 0.007
+WIDOW/WIDOWER           0.002
+*Missing*               0.002
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.848
+FEMALE             0.152
+
+------------------------------------------------------------------------------------------
+-------------------- Level 3 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  66.030998
+1              NumVisits  43.153999
+5    TotalDaysSupply_Max  26.742001
+4   TotalDaysSupply_Mean  18.111000
+3    TotalDaysSupply_Min  10.487000
+8                MME_Max   8.114000
+7               MME_Mean   7.496000
+6                MME_Min   6.826000
+2             TotalNumRx   5.617000
+17     NumRx_Hydrocodone   2.653000
+20        NumRx_Tramadol   1.868000
+11          NumFills_Max   1.457000
+10         NumFills_Mean   1.228000
+9           NumFills_Min   1.057000
+12       NumRx_Oxycodone   0.636000
+21         NumRx_Codeine   0.291000
+18        NumRx_Morphine   0.107000
+23   NumRx_Buprenorphine   0.029000
+22   NumRx_Hydromorphone   0.022000
+24       NumRx_Methadone   0.009000
+14      NumRx_Meperidine   0.002000
+13        NumRx_Fentanyl   0.001000
+15     NumRx_Levorphanol   0.000000
+16     NumRx_Oxymorphone   0.000000
+19      NumRx_Tapentadol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.708
+11           Obesity_Ever          0.468
+16         Arthritis_Ever          0.468
+12          Diabetes_Ever          0.455
+5         Depression_Ever          0.418
+18           PainNEC_Ever          0.376
+9               PTSD_Ever          0.330
+6            Anxiety_Ever          0.307
+13              COPD_Ever          0.190
+15      HeartFailure_Ever          0.149
+22        TobaccoUse_Ever          0.126
+14            Asthma_Ever          0.112
+19    MyofascialPain_Ever          0.101
+21  FamilyDisruption_Ever          0.097
+0         AlcoholUse_Ever          0.057
+10              ADHD_Ever          0.035
+7    BipolarDisorder_Ever          0.024
+1        CannabisUse_Ever          0.015
+8      Schizophrenia_Ever          0.009
+24               HIV_Ever          0.005
+20    EatingDisorder_Ever          0.005
+23              HepC_Ever          0.002
+4    HallucinogenUse_Ever          0.001
+2         CocaineUse_Ever          0.000
+3       StimulantUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.865
+HISPANIC OR LATINO               0.089
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.017
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.915
+Yes, Screened reports MST                  0.077
+Screened Declines to answer                0.008
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.703
+BLACK OR AFRICAN AMERICAN                           0.200
+DECLINED TO ANSWER                                  0.050
+UNKNOWN BY PATIENT                                  0.013
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.012
+ASIAN                                               0.009
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+WHITE NOT OF HISP ORIG                              0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.333
+Tramadol                0.298
+Oxycodone               0.252
+Codeine                 0.102
+Hydromorphone           0.007
+Morphine                0.005
+Buprenorphine           0.002
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.621
+DIVORCED                0.196
+NEVER MARRIED           0.103
+WIDOWED                 0.043
+SEPARATED               0.025
+UNKNOWN                 0.006
+WIDOW/WIDOWER           0.003
+*Missing*               0.002
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.858
+FEMALE             0.142
+
+------------------------------------------------------------------------------------------
+-------------------- Level 4 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  64.813004
+1              NumVisits  42.316002
+5    TotalDaysSupply_Max  28.787001
+4   TotalDaysSupply_Mean  18.952999
+3    TotalDaysSupply_Min  10.660000
+8                MME_Max   8.296000
+7               MME_Mean   7.533000
+6                MME_Min   6.762000
+2             TotalNumRx   6.319000
+17     NumRx_Hydrocodone   2.737000
+20        NumRx_Tramadol   1.934000
+11          NumFills_Max   1.493000
+10         NumFills_Mean   1.232000
+9           NumFills_Min   1.057000
+12       NumRx_Oxycodone   1.015000
+21         NumRx_Codeine   0.360000
+18        NumRx_Morphine   0.161000
+23   NumRx_Buprenorphine   0.052000
+22   NumRx_Hydromorphone   0.023000
+24       NumRx_Methadone   0.019000
+13        NumRx_Fentanyl   0.016000
+14      NumRx_Meperidine   0.003000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.715
+5         Depression_Ever          0.451
+12          Diabetes_Ever          0.427
+16         Arthritis_Ever          0.425
+18           PainNEC_Ever          0.414
+11           Obesity_Ever          0.404
+9               PTSD_Ever          0.348
+6            Anxiety_Ever          0.328
+13              COPD_Ever          0.199
+22        TobaccoUse_Ever          0.160
+15      HeartFailure_Ever          0.142
+14            Asthma_Ever          0.104
+21  FamilyDisruption_Ever          0.100
+19    MyofascialPain_Ever          0.096
+0         AlcoholUse_Ever          0.092
+10              ADHD_Ever          0.038
+7    BipolarDisorder_Ever          0.032
+1        CannabisUse_Ever          0.027
+8      Schizophrenia_Ever          0.010
+24               HIV_Ever          0.006
+20    EatingDisorder_Ever          0.005
+23              HepC_Ever          0.005
+2         CocaineUse_Ever          0.001
+3       StimulantUse_Ever          0.001
+4    HallucinogenUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.876
+HISPANIC OR LATINO               0.081
+DECLINED TO ANSWER               0.027
+UNKNOWN BY PATIENT               0.015
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.912
+Yes, Screened reports MST                  0.079
+Screened Declines to answer                0.009
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.709
+BLACK OR AFRICAN AMERICAN                           0.201
+DECLINED TO ANSWER                                  0.048
+UNKNOWN BY PATIENT                                  0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+ASIAN                                               0.008
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.340
+Tramadol                0.285
+Oxycodone               0.258
+Codeine                 0.099
+Hydromorphone           0.008
+Morphine                0.006
+Buprenorphine           0.003
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.561
+DIVORCED                0.231
+NEVER MARRIED           0.124
+WIDOWED                 0.044
+SEPARATED               0.029
+UNKNOWN                 0.005
+WIDOW/WIDOWER           0.003
+*Missing*               0.001
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.864
+FEMALE             0.136
+
+------------------------------------------------------------------------------------------
+-------------------- Level 5 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.852001
+1              NumVisits  40.692001
+5    TotalDaysSupply_Max  31.164000
+4   TotalDaysSupply_Mean  19.879999
+3    TotalDaysSupply_Min  11.132000
+8                MME_Max   8.518000
+7               MME_Mean   7.612000
+2             TotalNumRx   7.584000
+6                MME_Min   6.728000
+17     NumRx_Hydrocodone   3.438000
+20        NumRx_Tramadol   1.968000
+11          NumFills_Max   1.534000
+12       NumRx_Oxycodone   1.432000
+10         NumFills_Mean   1.234000
+9           NumFills_Min   1.059000
+21         NumRx_Codeine   0.403000
+18        NumRx_Morphine   0.191000
+23   NumRx_Buprenorphine   0.082000
+22   NumRx_Hydromorphone   0.039000
+24       NumRx_Methadone   0.019000
+13        NumRx_Fentanyl   0.008000
+14      NumRx_Meperidine   0.003000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.711
+5         Depression_Ever          0.470
+18           PainNEC_Ever          0.434
+12          Diabetes_Ever          0.396
+16         Arthritis_Ever          0.383
+9               PTSD_Ever          0.353
+11           Obesity_Ever          0.350
+6            Anxiety_Ever          0.343
+13              COPD_Ever          0.207
+22        TobaccoUse_Ever          0.198
+15      HeartFailure_Ever          0.141
+0         AlcoholUse_Ever          0.122
+14            Asthma_Ever          0.095
+21  FamilyDisruption_Ever          0.094
+19    MyofascialPain_Ever          0.093
+1        CannabisUse_Ever          0.042
+7    BipolarDisorder_Ever          0.041
+10              ADHD_Ever          0.041
+8      Schizophrenia_Ever          0.011
+23              HepC_Ever          0.008
+24               HIV_Ever          0.007
+20    EatingDisorder_Ever          0.005
+2         CocaineUse_Ever          0.002
+3       StimulantUse_Ever          0.002
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.881
+HISPANIC OR LATINO               0.077
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.013
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.904
+Yes, Screened reports MST                  0.086
+Screened Declines to answer                0.009
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.713
+BLACK OR AFRICAN AMERICAN                           0.198
+DECLINED TO ANSWER                                  0.050
+UNKNOWN BY PATIENT                                  0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+ASIAN                                               0.004
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.352
+Tramadol                0.277
+Oxycodone               0.255
+Codeine                 0.092
+Hydromorphone           0.009
+Morphine                0.009
+Buprenorphine           0.005
+Meperidine              0.001
+Fentanyl                0.000
+Methadone               0.000
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.504
+DIVORCED                0.268
+NEVER MARRIED           0.139
+WIDOWED                 0.041
+SEPARATED               0.037
+UNKNOWN                 0.005
+WIDOW/WIDOWER           0.003
+SINGLE                  0.001
+*Missing*               0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.872
+FEMALE             0.128
+
+------------------------------------------------------------------------------------------
+-------------------- Level 6 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.224998
+1              NumVisits  41.118000
+5    TotalDaysSupply_Max  33.056000
+4   TotalDaysSupply_Mean  20.811001
+3    TotalDaysSupply_Min  11.573000
+2             TotalNumRx   9.522000
+8                MME_Max   8.785000
+7               MME_Mean   7.685000
+6                MME_Min   6.680000
+17     NumRx_Hydrocodone   4.662000
+12       NumRx_Oxycodone   2.049000
+20        NumRx_Tramadol   1.885000
+11          NumFills_Max   1.554000
+10         NumFills_Mean   1.227000
+9           NumFills_Min   1.060000
+21         NumRx_Codeine   0.436000
+18        NumRx_Morphine   0.240000
+23   NumRx_Buprenorphine   0.149000
+24       NumRx_Methadone   0.042000
+22   NumRx_Hydromorphone   0.036000
+13        NumRx_Fentanyl   0.016000
+14      NumRx_Meperidine   0.003000
+19      NumRx_Tapentadol   0.003000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.713
+5         Depression_Ever          0.497
+18           PainNEC_Ever          0.453
+12          Diabetes_Ever          0.374
+9               PTSD_Ever          0.370
+16         Arthritis_Ever          0.356
+6            Anxiety_Ever          0.355
+11           Obesity_Ever          0.315
+22        TobaccoUse_Ever          0.236
+13              COPD_Ever          0.224
+0         AlcoholUse_Ever          0.179
+15      HeartFailure_Ever          0.137
+21  FamilyDisruption_Ever          0.099
+19    MyofascialPain_Ever          0.089
+14            Asthma_Ever          0.087
+1        CannabisUse_Ever          0.067
+7    BipolarDisorder_Ever          0.057
+10              ADHD_Ever          0.040
+23              HepC_Ever          0.016
+8      Schizophrenia_Ever          0.012
+24               HIV_Ever          0.007
+20    EatingDisorder_Ever          0.006
+2         CocaineUse_Ever          0.003
+3       StimulantUse_Ever          0.003
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.888
+HISPANIC OR LATINO               0.072
+DECLINED TO ANSWER               0.028
+UNKNOWN BY PATIENT               0.013
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.902
+Yes, Screened reports MST                  0.087
+Screened Declines to answer                0.010
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.720
+BLACK OR AFRICAN AMERICAN                           0.195
+DECLINED TO ANSWER                                  0.048
+UNKNOWN BY PATIENT                                  0.011
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.008
+WHITE NOT OF HISP ORIG                              0.005
+ASIAN                                               0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.371
+Tramadol                0.260
+Oxycodone               0.258
+Codeine                 0.085
+Morphine                0.010
+Hydromorphone           0.009
+Buprenorphine           0.006
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.458
+DIVORCED                0.292
+NEVER MARRIED           0.154
+SEPARATED               0.045
+WIDOWED                 0.042
+UNKNOWN                 0.004
+WIDOW/WIDOWER           0.003
+SINGLE                  0.001
+*Missing*               0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.887
+FEMALE             0.113
+
+------------------------------------------------------------------------------------------
+-------------------- Level 7 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.283001
+1              NumVisits  43.737000
+5    TotalDaysSupply_Max  34.342999
+4   TotalDaysSupply_Mean  21.492001
+2             TotalNumRx  13.162000
+3    TotalDaysSupply_Min  12.027000
+8                MME_Max   9.374000
+7               MME_Mean   7.885000
+17     NumRx_Hydrocodone   6.887000
+6                MME_Min   6.669000
+12       NumRx_Oxycodone   3.286000
+20        NumRx_Tramadol   1.650000
+11          NumFills_Max   1.540000
+10         NumFills_Mean   1.197000
+9           NumFills_Min   1.053000
+18        NumRx_Morphine   0.575000
+21         NumRx_Codeine   0.413000
+23   NumRx_Buprenorphine   0.212000
+22   NumRx_Hydromorphone   0.050000
+24       NumRx_Methadone   0.045000
+13        NumRx_Fentanyl   0.033000
+19      NumRx_Tapentadol   0.010000
+14      NumRx_Meperidine   0.003000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.725
+5         Depression_Ever          0.510
+18           PainNEC_Ever          0.484
+9               PTSD_Ever          0.377
+6            Anxiety_Ever          0.361
+12          Diabetes_Ever          0.360
+16         Arthritis_Ever          0.340
+11           Obesity_Ever          0.290
+22        TobaccoUse_Ever          0.282
+13              COPD_Ever          0.246
+0         AlcoholUse_Ever          0.235
+15      HeartFailure_Ever          0.139
+21  FamilyDisruption_Ever          0.101
+1        CannabisUse_Ever          0.091
+19    MyofascialPain_Ever          0.089
+14            Asthma_Ever          0.082
+7    BipolarDisorder_Ever          0.068
+10              ADHD_Ever          0.039
+23              HepC_Ever          0.031
+8      Schizophrenia_Ever          0.014
+2         CocaineUse_Ever          0.010
+24               HIV_Ever          0.009
+3       StimulantUse_Ever          0.006
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.901
+HISPANIC OR LATINO               0.062
+DECLINED TO ANSWER               0.026
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.900
+Yes, Screened reports MST                  0.087
+Screened Declines to answer                0.012
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.726
+BLACK OR AFRICAN AMERICAN                           0.195
+DECLINED TO ANSWER                                  0.044
+AMERICAN INDIAN OR ALASKA NATIVE                    0.011
+UNKNOWN BY PATIENT                                  0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.007
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.415
+Oxycodone               0.253
+Tramadol                0.224
+Codeine                 0.075
+Morphine                0.014
+Hydromorphone           0.009
+Buprenorphine           0.007
+Methadone               0.001
+Meperidine              0.001
+Fentanyl                0.001
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.405
+DIVORCED                0.332
+NEVER MARRIED           0.162
+SEPARATED               0.052
+WIDOWED                 0.042
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.003
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.902
+FEMALE             0.098
+
+------------------------------------------------------------------------------------------
+-------------------- Level 8 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.667999
+1              NumVisits  48.240002
+5    TotalDaysSupply_Max  35.459999
+4   TotalDaysSupply_Mean  22.423000
+2             TotalNumRx  18.110001
+3    TotalDaysSupply_Min  12.435000
+8                MME_Max  10.531000
+17     NumRx_Hydrocodone   9.043000
+7               MME_Mean   8.389000
+6                MME_Min   6.772000
+12       NumRx_Oxycodone   5.399000
+11          NumFills_Max   1.508000
+20        NumRx_Tramadol   1.348000
+18        NumRx_Morphine   1.263000
+10         NumFills_Mean   1.158000
+9           NumFills_Min   1.042000
+23   NumRx_Buprenorphine   0.350000
+21         NumRx_Codeine   0.343000
+24       NumRx_Methadone   0.125000
+13        NumRx_Fentanyl   0.115000
+22   NumRx_Hydromorphone   0.106000
+19      NumRx_Tapentadol   0.015000
+14      NumRx_Meperidine   0.003000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.747
+18           PainNEC_Ever          0.554
+5         Depression_Ever          0.546
+9               PTSD_Ever          0.391
+6            Anxiety_Ever          0.390
+12          Diabetes_Ever          0.359
+16         Arthritis_Ever          0.345
+22        TobaccoUse_Ever          0.329
+0         AlcoholUse_Ever          0.310
+11           Obesity_Ever          0.286
+13              COPD_Ever          0.275
+15      HeartFailure_Ever          0.154
+1        CannabisUse_Ever          0.128
+21  FamilyDisruption_Ever          0.106
+19    MyofascialPain_Ever          0.093
+7    BipolarDisorder_Ever          0.087
+14            Asthma_Ever          0.077
+23              HepC_Ever          0.054
+10              ADHD_Ever          0.038
+2         CocaineUse_Ever          0.030
+8      Schizophrenia_Ever          0.016
+3       StimulantUse_Ever          0.015
+24               HIV_Ever          0.010
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.912
+HISPANIC OR LATINO               0.054
+DECLINED TO ANSWER               0.026
+UNKNOWN BY PATIENT               0.008
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.898
+Yes, Screened reports MST                  0.087
+Screened Declines to answer                0.015
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.741
+BLACK OR AFRICAN AMERICAN                           0.187
+DECLINED TO ANSWER                                  0.043
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+UNKNOWN BY PATIENT                                  0.008
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.441
+Oxycodone               0.266
+Tramadol                0.185
+Codeine                 0.063
+Morphine                0.023
+Hydromorphone           0.010
+Buprenorphine           0.008
+Fentanyl                0.002
+Methadone               0.002
+Tapentadol              0.001
+Meperidine              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.367
+DIVORCED                0.361
+NEVER MARRIED           0.162
+SEPARATED               0.059
+WIDOWED                 0.045
+WIDOW/WIDOWER           0.004
+UNKNOWN                 0.002
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.913
+FEMALE             0.087
+
+------------------------------------------------------------------------------------------
+-------------------- Level 9 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  64.294998
+1              NumVisits  58.937000
+5    TotalDaysSupply_Max  36.009998
+2             TotalNumRx  24.583000
+4   TotalDaysSupply_Mean  22.959000
+8                MME_Max  14.295000
+3    TotalDaysSupply_Min  11.999000
+7               MME_Mean  10.077000
+12       NumRx_Oxycodone   9.488000
+17     NumRx_Hydrocodone   8.124000
+6                MME_Min   7.201000
+18        NumRx_Morphine   3.615000
+11          NumFills_Max   1.472000
+20        NumRx_Tramadol   1.133000
+10         NumFills_Mean   1.122000
+9           NumFills_Min   1.034000
+24       NumRx_Methadone   0.761000
+23   NumRx_Buprenorphine   0.500000
+13        NumRx_Fentanyl   0.343000
+21         NumRx_Codeine   0.310000
+22   NumRx_Hydromorphone   0.247000
+19      NumRx_Tapentadol   0.055000
+14      NumRx_Meperidine   0.003000
+16     NumRx_Oxymorphone   0.003000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.778
+18           PainNEC_Ever          0.639
+5         Depression_Ever          0.600
+6            Anxiety_Ever          0.431
+9               PTSD_Ever          0.418
+22        TobaccoUse_Ever          0.409
+0         AlcoholUse_Ever          0.393
+12          Diabetes_Ever          0.368
+16         Arthritis_Ever          0.360
+13              COPD_Ever          0.331
+11           Obesity_Ever          0.298
+1        CannabisUse_Ever          0.192
+15      HeartFailure_Ever          0.175
+21  FamilyDisruption_Ever          0.124
+7    BipolarDisorder_Ever          0.117
+23              HepC_Ever          0.113
+2         CocaineUse_Ever          0.104
+19    MyofascialPain_Ever          0.102
+14            Asthma_Ever          0.079
+3       StimulantUse_Ever          0.054
+10              ADHD_Ever          0.041
+8      Schizophrenia_Ever          0.023
+24               HIV_Ever          0.013
+20    EatingDisorder_Ever          0.006
+4    HallucinogenUse_Ever          0.003
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.914
+HISPANIC OR LATINO               0.050
+DECLINED TO ANSWER               0.025
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.884
+Yes, Screened reports MST                  0.099
+Screened Declines to answer                0.016
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.729
+BLACK OR AFRICAN AMERICAN                           0.199
+DECLINED TO ANSWER                                  0.041
+AMERICAN INDIAN OR ALASKA NATIVE                    0.010
+UNKNOWN BY PATIENT                                  0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.002
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.376
+Oxycodone               0.326
+Tramadol                0.153
+Morphine                0.059
+Codeine                 0.049
+Hydromorphone           0.012
+Methadone               0.011
+Fentanyl                0.007
+Buprenorphine           0.005
+Tapentadol              0.001
+Meperidine              0.000
+Oxymorphone             0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.382
+MARRIED                 0.342
+NEVER MARRIED           0.161
+SEPARATED               0.067
+WIDOWED                 0.043
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.002
+SINGLE                  0.000
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.921
+FEMALE             0.079
+
+------------------------------------------------------------------------------------------
+-------------------- Level 10 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+1              NumVisits  65.681999
+0                    Age  64.613998
+5    TotalDaysSupply_Max  32.770000
+2             TotalNumRx  27.879000
+4   TotalDaysSupply_Mean  22.187000
+8                MME_Max  21.563999
+7               MME_Mean  13.828000
+3    TotalDaysSupply_Min  11.176000
+12       NumRx_Oxycodone  10.923000
+6                MME_Min   8.254000
+18        NumRx_Morphine   7.135000
+17     NumRx_Hydrocodone   5.224000
+24       NumRx_Methadone   1.722000
+11          NumFills_Max   1.358000
+10         NumFills_Mean   1.081000
+9           NumFills_Min   1.020000
+13        NumRx_Fentanyl   0.863000
+20        NumRx_Tramadol   0.805000
+22   NumRx_Hydromorphone   0.529000
+23   NumRx_Buprenorphine   0.329000
+21         NumRx_Codeine   0.257000
+19      NumRx_Tapentadol   0.076000
+16     NumRx_Oxymorphone   0.010000
+14      NumRx_Meperidine   0.005000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.792
+18           PainNEC_Ever          0.688
+5         Depression_Ever          0.634
+22        TobaccoUse_Ever          0.477
+0         AlcoholUse_Ever          0.450
+6            Anxiety_Ever          0.441
+9               PTSD_Ever          0.426
+12          Diabetes_Ever          0.374
+16         Arthritis_Ever          0.357
+13              COPD_Ever          0.357
+11           Obesity_Ever          0.282
+1        CannabisUse_Ever          0.253
+2         CocaineUse_Ever          0.231
+15      HeartFailure_Ever          0.175
+23              HepC_Ever          0.162
+7    BipolarDisorder_Ever          0.143
+3       StimulantUse_Ever          0.141
+21  FamilyDisruption_Ever          0.139
+19    MyofascialPain_Ever          0.102
+14            Asthma_Ever          0.081
+10              ADHD_Ever          0.039
+8      Schizophrenia_Ever          0.032
+24               HIV_Ever          0.017
+4    HallucinogenUse_Ever          0.006
+20    EatingDisorder_Ever          0.005
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.916
+HISPANIC OR LATINO               0.048
+DECLINED TO ANSWER               0.025
+UNKNOWN BY PATIENT               0.012
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.872
+Yes, Screened reports MST                  0.107
+Screened Declines to answer                0.019
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.701
+BLACK OR AFRICAN AMERICAN                           0.229
+DECLINED TO ANSWER                                  0.040
+AMERICAN INDIAN OR ALASKA NATIVE                    0.010
+UNKNOWN BY PATIENT                                  0.009
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.001
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.349
+Hydrocodone             0.273
+Morphine                0.139
+Tramadol                0.122
+Codeine                 0.044
+Methadone               0.036
+Fentanyl                0.016
+Hydromorphone           0.016
+Buprenorphine           0.003
+Tapentadol              0.001
+Oxymorphone             0.000
+Meperidine              0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.383
+MARRIED                 0.333
+NEVER MARRIED           0.168
+SEPARATED               0.069
+WIDOWED                 0.042
+WIDOW/WIDOWER           0.004
+UNKNOWN                 0.001
+*Missing*               0.000
+SINGLE                  0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.931
+FEMALE             0.069
+
+------------------------------------------------------------------------------------------
+-------------------- Level 11 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.848000
+1              NumVisits  57.235001
+5    TotalDaysSupply_Max  30.315001
+8                MME_Max  25.569000
+2             TotalNumRx  23.527000
+4   TotalDaysSupply_Mean  21.452000
+7               MME_Mean  16.302000
+3    TotalDaysSupply_Min  10.517000
+12       NumRx_Oxycodone   9.547000
+6                MME_Min   9.258000
+18        NumRx_Morphine   6.050000
+17     NumRx_Hydrocodone   3.495000
+24       NumRx_Methadone   2.082000
+11          NumFills_Max   1.296000
+10         NumFills_Mean   1.071000
+9           NumFills_Min   1.019000
+13        NumRx_Fentanyl   0.742000
+20        NumRx_Tramadol   0.679000
+22   NumRx_Hydromorphone   0.544000
+21         NumRx_Codeine   0.171000
+23   NumRx_Buprenorphine   0.163000
+19      NumRx_Tapentadol   0.046000
+16     NumRx_Oxymorphone   0.005000
+14      NumRx_Meperidine   0.003000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.770
+18           PainNEC_Ever          0.716
+5         Depression_Ever          0.696
+0         AlcoholUse_Ever          0.551
+22        TobaccoUse_Ever          0.546
+6            Anxiety_Ever          0.486
+9               PTSD_Ever          0.459
+2         CocaineUse_Ever          0.365
+13              COPD_Ever          0.362
+1        CannabisUse_Ever          0.345
+12          Diabetes_Ever          0.342
+16         Arthritis_Ever          0.299
+3       StimulantUse_Ever          0.268
+23              HepC_Ever          0.257
+11           Obesity_Ever          0.231
+7    BipolarDisorder_Ever          0.200
+15      HeartFailure_Ever          0.165
+21  FamilyDisruption_Ever          0.127
+19    MyofascialPain_Ever          0.084
+14            Asthma_Ever          0.062
+8      Schizophrenia_Ever          0.049
+10              ADHD_Ever          0.039
+24               HIV_Ever          0.023
+4    HallucinogenUse_Ever          0.013
+20    EatingDisorder_Ever          0.005
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.920
+HISPANIC OR LATINO               0.044
+DECLINED TO ANSWER               0.026
+UNKNOWN BY PATIENT               0.010
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.834
+Yes, Screened reports MST                  0.138
+Screened Declines to answer                0.027
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.686
+BLACK OR AFRICAN AMERICAN                           0.249
+DECLINED TO ANSWER                                  0.039
+AMERICAN INDIAN OR ALASKA NATIVE                    0.012
+UNKNOWN BY PATIENT                                  0.008
+WHITE NOT OF HISP ORIG                              0.003
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.003
+ASIAN                                               0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.345
+Hydrocodone             0.232
+Morphine                0.156
+Tramadol                0.126
+Methadone               0.066
+Codeine                 0.039
+Hydromorphone           0.019
+Fentanyl                0.014
+Buprenorphine           0.002
+Meperidine              0.001
+Tapentadol              0.001
+Oxymorphone             0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.426
+MARRIED                 0.254
+NEVER MARRIED           0.186
+SEPARATED               0.080
+WIDOWED                 0.048
+WIDOW/WIDOWER           0.004
+UNKNOWN                 0.001
+SINGLE                  0.001
+COMMON-LAW              0.000
+*Missing*               0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.942
+FEMALE             0.058
+
+------------------------------------------------------------------------------------------
+-------------------- Level 12 | ALL
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  61.796001
+1              NumVisits  48.750999
+5    TotalDaysSupply_Max  28.377001
+8                MME_Max  22.566000
+4   TotalDaysSupply_Mean  19.320999
+2             TotalNumRx  16.559999
+7               MME_Mean  15.208000
+3    TotalDaysSupply_Min   9.193000
+6                MME_Min   8.823000
+12       NumRx_Oxycodone   7.075000
+18        NumRx_Morphine   3.761000
+17     NumRx_Hydrocodone   2.365000
+24       NumRx_Methadone   1.829000
+11          NumFills_Max   1.286000
+10         NumFills_Mean   1.073000
+9           NumFills_Min   1.023000
+20        NumRx_Tramadol   0.700000
+22   NumRx_Hydromorphone   0.346000
+13        NumRx_Fentanyl   0.280000
+21         NumRx_Codeine   0.107000
+23   NumRx_Buprenorphine   0.095000
+14      NumRx_Meperidine   0.001000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+5         Depression_Ever          0.772
+0         AlcoholUse_Ever          0.750
+18           PainNEC_Ever          0.723
+17   ChronicBackPain_Ever          0.723
+22        TobaccoUse_Ever          0.712
+2         CocaineUse_Ever          0.629
+3       StimulantUse_Ever          0.538
+1        CannabisUse_Ever          0.531
+6            Anxiety_Ever          0.530
+9               PTSD_Ever          0.528
+23              HepC_Ever          0.490
+13              COPD_Ever          0.357
+7    BipolarDisorder_Ever          0.356
+12          Diabetes_Ever          0.252
+16         Arthritis_Ever          0.199
+11           Obesity_Ever          0.149
+21  FamilyDisruption_Ever          0.129
+15      HeartFailure_Ever          0.125
+8      Schizophrenia_Ever          0.075
+19    MyofascialPain_Ever          0.056
+10              ADHD_Ever          0.047
+14            Asthma_Ever          0.043
+24               HIV_Ever          0.031
+4    HallucinogenUse_Ever          0.020
+20    EatingDisorder_Ever          0.006
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.948
+HISPANIC OR LATINO               0.032
+DECLINED TO ANSWER               0.015
+UNKNOWN BY PATIENT               0.004
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.715
+Yes, Screened reports MST                  0.246
+Screened Declines to answer                0.039
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.728
+BLACK OR AFRICAN AMERICAN                           0.246
+DECLINED TO ANSWER                                  0.017
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+UNKNOWN BY PATIENT                                  0.001
+ASIAN                                               0.001
+WHITE NOT OF HISP ORIG                              0.000
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.355
+Hydrocodone             0.234
+Tramadol                0.175
+Morphine                0.117
+Methadone               0.063
+Codeine                 0.028
+Hydromorphone           0.019
+Fentanyl                0.008
+Buprenorphine           0.001
+Levorphanol             0.000
+Meperidine              0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.493
+NEVER MARRIED           0.223
+MARRIED                 0.126
+SEPARATED               0.110
+WIDOWED                 0.043
+WIDOW/WIDOWER           0.005
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+UNKNOWN                 0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.962
+FEMALE             0.038
+
+------------------------------------------------------------------------------------------
+-------------------- Level 1 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  71.766998
+1              NumVisits  47.997002
+5    TotalDaysSupply_Max  19.559000
+4   TotalDaysSupply_Mean  15.693000
+3    TotalDaysSupply_Min  12.228000
+8                MME_Max   7.750000
+7               MME_Mean   7.137000
+6                MME_Min   6.545000
+2             TotalNumRx   3.961000
+17     NumRx_Hydrocodone   2.417000
+11          NumFills_Max   1.279000
+10         NumFills_Mean   1.193000
+9           NumFills_Min   1.128000
+20        NumRx_Tramadol   0.998000
+12       NumRx_Oxycodone   0.441000
+21         NumRx_Codeine   0.105000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+14      NumRx_Meperidine   0.000000
+18        NumRx_Morphine   0.000000
+19      NumRx_Tapentadol   0.000000
+22   NumRx_Hydromorphone   0.000000
+23   NumRx_Buprenorphine   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.765
+16         Arthritis_Ever          0.731
+11           Obesity_Ever          0.659
+12          Diabetes_Ever          0.623
+5         Depression_Ever          0.323
+18           PainNEC_Ever          0.300
+9               PTSD_Ever          0.262
+6            Anxiety_Ever          0.219
+13              COPD_Ever          0.214
+15      HeartFailure_Ever          0.190
+14            Asthma_Ever          0.157
+21  FamilyDisruption_Ever          0.130
+19    MyofascialPain_Ever          0.127
+22        TobaccoUse_Ever          0.110
+10              ADHD_Ever          0.022
+0         AlcoholUse_Ever          0.020
+20    EatingDisorder_Ever          0.017
+8      Schizophrenia_Ever          0.014
+7    BipolarDisorder_Ever          0.000
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+1        CannabisUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+23              HepC_Ever          0.000
+24               HIV_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.872
+HISPANIC OR LATINO               0.088
+DECLINED TO ANSWER               0.023
+UNKNOWN BY PATIENT               0.017
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.930
+Yes, Screened reports MST                  0.059
+Screened Declines to answer                0.011
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.715
+BLACK OR AFRICAN AMERICAN                           0.132
+DECLINED TO ANSWER                                  0.069
+UNKNOWN BY PATIENT                                  0.024
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.022
+AMERICAN INDIAN OR ALASKA NATIVE                    0.022
+ASIAN                                               0.017
+WHITE NOT OF HISP ORIG                              0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.368
+Tramadol                0.310
+Oxycodone               0.196
+Codeine                 0.126
+Buprenorphine           0.000
+Hydromorphone           0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Meperidine              0.000
+Morphine                0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.785
+DIVORCED                0.082
+WIDOWED                 0.047
+SEPARATED               0.036
+NEVER MARRIED           0.030
+UNKNOWN                 0.014
+WIDOW/WIDOWER           0.006
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.817
+FEMALE             0.183
+
+------------------------------------------------------------------------------------------
+-------------------- Level 2 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  68.444000
+1              NumVisits  53.624001
+5    TotalDaysSupply_Max  33.189999
+4   TotalDaysSupply_Mean  23.896999
+3    TotalDaysSupply_Min  14.080000
+8                MME_Max   7.802000
+7               MME_Mean   7.324000
+2             TotalNumRx   6.805000
+6                MME_Min   6.736000
+17     NumRx_Hydrocodone   3.371000
+20        NumRx_Tramadol   1.698000
+11          NumFills_Max   1.679000
+10         NumFills_Mean   1.417000
+9           NumFills_Min   1.161000
+12       NumRx_Oxycodone   0.764000
+18        NumRx_Morphine   0.654000
+21         NumRx_Codeine   0.274000
+23   NumRx_Buprenorphine   0.028000
+22   NumRx_Hydromorphone   0.017000
+14      NumRx_Meperidine   0.000000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.788
+16         Arthritis_Ever          0.609
+11           Obesity_Ever          0.570
+12          Diabetes_Ever          0.543
+5         Depression_Ever          0.503
+6            Anxiety_Ever          0.410
+18           PainNEC_Ever          0.341
+9               PTSD_Ever          0.335
+13              COPD_Ever          0.211
+15      HeartFailure_Ever          0.199
+22        TobaccoUse_Ever          0.137
+19    MyofascialPain_Ever          0.135
+21  FamilyDisruption_Ever          0.123
+14            Asthma_Ever          0.070
+0         AlcoholUse_Ever          0.048
+7    BipolarDisorder_Ever          0.025
+10              ADHD_Ever          0.019
+4    HallucinogenUse_Ever          0.011
+24               HIV_Ever          0.008
+20    EatingDisorder_Ever          0.006
+8      Schizophrenia_Ever          0.006
+1        CannabisUse_Ever          0.003
+23              HepC_Ever          0.003
+2         CocaineUse_Ever          0.000
+3       StimulantUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.838
+HISPANIC OR LATINO               0.131
+DECLINED TO ANSWER               0.020
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.877
+Yes, Screened reports MST                  0.109
+Screened Declines to answer                0.014
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.697
+BLACK OR AFRICAN AMERICAN                           0.170
+DECLINED TO ANSWER                                  0.054
+AMERICAN INDIAN OR ALASKA NATIVE                    0.047
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.017
+ASIAN                                               0.008
+WHITE NOT OF HISP ORIG                              0.004
+UNKNOWN BY PATIENT                                  0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.339
+Tramadol                0.335
+Oxycodone               0.157
+Codeine                 0.146
+Hydromorphone           0.017
+Morphine                0.006
+Buprenorphine           0.000
+Levorphanol             0.000
+Fentanyl                0.000
+Meperidine              0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.643
+DIVORCED                0.189
+NEVER MARRIED           0.103
+WIDOWED                 0.044
+SEPARATED               0.012
+UNKNOWN                 0.010
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+WIDOW/WIDOWER           0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.827
+FEMALE             0.173
+
+------------------------------------------------------------------------------------------
+-------------------- Level 3 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  69.036003
+1              NumVisits  39.759998
+5    TotalDaysSupply_Max  28.417999
+4   TotalDaysSupply_Mean  18.247999
+3    TotalDaysSupply_Min  10.109000
+8                MME_Max   8.081000
+7               MME_Mean   7.560000
+6                MME_Min   6.850000
+2             TotalNumRx   6.759000
+17     NumRx_Hydrocodone   2.715000
+20        NumRx_Tramadol   2.319000
+11          NumFills_Max   1.534000
+10         NumFills_Mean   1.241000
+9           NumFills_Min   1.056000
+12       NumRx_Oxycodone   0.876000
+18        NumRx_Morphine   0.477000
+21         NumRx_Codeine   0.300000
+22   NumRx_Hydromorphone   0.038000
+23   NumRx_Buprenorphine   0.029000
+14      NumRx_Meperidine   0.004000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.712
+12          Diabetes_Ever          0.522
+16         Arthritis_Ever          0.520
+11           Obesity_Ever          0.451
+5         Depression_Ever          0.404
+18           PainNEC_Ever          0.390
+6            Anxiety_Ever          0.329
+9               PTSD_Ever          0.320
+13              COPD_Ever          0.236
+15      HeartFailure_Ever          0.215
+22        TobaccoUse_Ever          0.145
+19    MyofascialPain_Ever          0.139
+14            Asthma_Ever          0.089
+21  FamilyDisruption_Ever          0.071
+0         AlcoholUse_Ever          0.066
+7    BipolarDisorder_Ever          0.046
+10              ADHD_Ever          0.043
+1        CannabisUse_Ever          0.031
+20    EatingDisorder_Ever          0.022
+8      Schizophrenia_Ever          0.013
+4    HallucinogenUse_Ever          0.006
+23              HepC_Ever          0.004
+24               HIV_Ever          0.002
+2         CocaineUse_Ever          0.000
+3       StimulantUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.848
+HISPANIC OR LATINO               0.104
+DECLINED TO ANSWER               0.038
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.888
+Yes, Screened reports MST                  0.095
+Screened Declines to answer                0.017
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.664
+BLACK OR AFRICAN AMERICAN                           0.223
+DECLINED TO ANSWER                                  0.065
+WHITE NOT OF HISP ORIG                              0.013
+AMERICAN INDIAN OR ALASKA NATIVE                    0.011
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+ASIAN                                               0.007
+UNKNOWN BY PATIENT                                  0.006
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.309
+Tramadol                0.284
+Oxycodone               0.275
+Codeine                 0.102
+Hydromorphone           0.017
+Morphine                0.011
+Buprenorphine           0.002
+Levorphanol             0.000
+Fentanyl                0.000
+Meperidine              0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.582
+DIVORCED                0.237
+NEVER MARRIED           0.107
+WIDOWED                 0.036
+SEPARATED               0.027
+UNKNOWN                 0.007
+WIDOW/WIDOWER           0.004
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.833
+FEMALE             0.167
+
+------------------------------------------------------------------------------------------
+-------------------- Level 4 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  66.071999
+1              NumVisits  42.391998
+5    TotalDaysSupply_Max  34.487000
+4   TotalDaysSupply_Mean  21.511000
+3    TotalDaysSupply_Min  11.247000
+8                MME_Max   8.504000
+2             TotalNumRx   7.859000
+7               MME_Mean   7.568000
+6                MME_Min   6.823000
+17     NumRx_Hydrocodone   3.569000
+20        NumRx_Tramadol   2.360000
+11          NumFills_Max   1.657000
+10         NumFills_Mean   1.284000
+12       NumRx_Oxycodone   1.141000
+9           NumFills_Min   1.057000
+21         NumRx_Codeine   0.482000
+23   NumRx_Buprenorphine   0.224000
+18        NumRx_Morphine   0.057000
+22   NumRx_Hydromorphone   0.026000
+14      NumRx_Meperidine   0.000000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.755
+18           PainNEC_Ever          0.476
+5         Depression_Ever          0.432
+12          Diabetes_Ever          0.431
+9               PTSD_Ever          0.376
+16         Arthritis_Ever          0.371
+11           Obesity_Ever          0.366
+6            Anxiety_Ever          0.344
+13              COPD_Ever          0.228
+22        TobaccoUse_Ever          0.175
+15      HeartFailure_Ever          0.175
+21  FamilyDisruption_Ever          0.127
+19    MyofascialPain_Ever          0.121
+14            Asthma_Ever          0.086
+0         AlcoholUse_Ever          0.078
+7    BipolarDisorder_Ever          0.048
+1        CannabisUse_Ever          0.040
+10              ADHD_Ever          0.032
+8      Schizophrenia_Ever          0.012
+23              HepC_Ever          0.009
+24               HIV_Ever          0.008
+20    EatingDisorder_Ever          0.007
+3       StimulantUse_Ever          0.003
+2         CocaineUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.862
+HISPANIC OR LATINO               0.083
+DECLINED TO ANSWER               0.037
+UNKNOWN BY PATIENT               0.019
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.893
+Yes, Screened reports MST                  0.100
+Screened Declines to answer                0.007
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.723
+BLACK OR AFRICAN AMERICAN                           0.165
+DECLINED TO ANSWER                                  0.056
+UNKNOWN BY PATIENT                                  0.016
+ASIAN                                               0.013
+AMERICAN INDIAN OR ALASKA NATIVE                    0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.008
+WHITE NOT OF HISP ORIG                              0.006
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.329
+Tramadol                0.268
+Oxycodone               0.254
+Codeine                 0.136
+Morphine                0.007
+Hydromorphone           0.007
+Fentanyl                0.000
+Levorphanol             0.000
+Buprenorphine           0.000
+Meperidine              0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.609
+DIVORCED                0.219
+NEVER MARRIED           0.084
+WIDOWED                 0.052
+SEPARATED               0.027
+WIDOW/WIDOWER           0.005
+UNKNOWN                 0.003
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.898
+FEMALE             0.102
+
+------------------------------------------------------------------------------------------
+-------------------- Level 5 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  64.533997
+1              NumVisits  45.098999
+5    TotalDaysSupply_Max  37.784000
+4   TotalDaysSupply_Mean  22.756001
+3    TotalDaysSupply_Min  11.834000
+2             TotalNumRx   9.729000
+8                MME_Max   8.485000
+7               MME_Mean   7.567000
+6                MME_Min   6.572000
+17     NumRx_Hydrocodone   4.568000
+20        NumRx_Tramadol   2.274000
+12       NumRx_Oxycodone   1.930000
+11          NumFills_Max   1.719000
+10         NumFills_Mean   1.298000
+9           NumFills_Min   1.068000
+21         NumRx_Codeine   0.547000
+23   NumRx_Buprenorphine   0.203000
+18        NumRx_Morphine   0.184000
+22   NumRx_Hydromorphone   0.023000
+14      NumRx_Meperidine   0.001000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.737
+18           PainNEC_Ever          0.483
+5         Depression_Ever          0.467
+12          Diabetes_Ever          0.429
+16         Arthritis_Ever          0.392
+9               PTSD_Ever          0.360
+6            Anxiety_Ever          0.357
+11           Obesity_Ever          0.357
+13              COPD_Ever          0.252
+22        TobaccoUse_Ever          0.224
+15      HeartFailure_Ever          0.148
+0         AlcoholUse_Ever          0.129
+19    MyofascialPain_Ever          0.123
+14            Asthma_Ever          0.112
+21  FamilyDisruption_Ever          0.093
+7    BipolarDisorder_Ever          0.052
+1        CannabisUse_Ever          0.052
+10              ADHD_Ever          0.034
+8      Schizophrenia_Ever          0.023
+24               HIV_Ever          0.016
+23              HepC_Ever          0.014
+2         CocaineUse_Ever          0.003
+3       StimulantUse_Ever          0.003
+4    HallucinogenUse_Ever          0.001
+20    EatingDisorder_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.870
+HISPANIC OR LATINO               0.078
+UNKNOWN BY PATIENT               0.028
+DECLINED TO ANSWER               0.024
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.900
+Yes, Screened reports MST                  0.092
+Screened Declines to answer                0.005
+Unknown, not screened                      0.002
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.704
+BLACK OR AFRICAN AMERICAN                           0.183
+DECLINED TO ANSWER                                  0.045
+UNKNOWN BY PATIENT                                  0.023
+AMERICAN INDIAN OR ALASKA NATIVE                    0.016
+ASIAN                                               0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.011
+WHITE NOT OF HISP ORIG                              0.007
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.374
+Tramadol                0.275
+Oxycodone               0.227
+Codeine                 0.106
+Morphine                0.010
+Hydromorphone           0.005
+Buprenorphine           0.003
+Levorphanol             0.000
+Fentanyl                0.000
+Meperidine              0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.531
+DIVORCED                0.254
+NEVER MARRIED           0.121
+SEPARATED               0.044
+WIDOWED                 0.041
+UNKNOWN                 0.003
+WIDOW/WIDOWER           0.003
+SINGLE                  0.002
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.892
+FEMALE             0.108
+
+------------------------------------------------------------------------------------------
+-------------------- Level 6 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  62.285000
+1              NumVisits  45.639999
+5    TotalDaysSupply_Max  33.985001
+4   TotalDaysSupply_Mean  21.209000
+3    TotalDaysSupply_Min  11.681000
+2             TotalNumRx  10.858000
+8                MME_Max   9.019000
+7               MME_Mean   7.759000
+6                MME_Min   6.637000
+17     NumRx_Hydrocodone   5.746000
+20        NumRx_Tramadol   2.249000
+12       NumRx_Oxycodone   1.947000
+11          NumFills_Max   1.597000
+10         NumFills_Mean   1.238000
+9           NumFills_Min   1.066000
+21         NumRx_Codeine   0.444000
+23   NumRx_Buprenorphine   0.269000
+18        NumRx_Morphine   0.110000
+22   NumRx_Hydromorphone   0.052000
+13        NumRx_Fentanyl   0.032000
+24       NumRx_Methadone   0.008000
+14      NumRx_Meperidine   0.002000
+15     NumRx_Levorphanol   0.000000
+16     NumRx_Oxymorphone   0.000000
+19      NumRx_Tapentadol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.706
+5         Depression_Ever          0.529
+18           PainNEC_Ever          0.471
+9               PTSD_Ever          0.416
+6            Anxiety_Ever          0.398
+12          Diabetes_Ever          0.382
+16         Arthritis_Ever          0.365
+11           Obesity_Ever          0.342
+22        TobaccoUse_Ever          0.237
+13              COPD_Ever          0.225
+0         AlcoholUse_Ever          0.175
+15      HeartFailure_Ever          0.132
+14            Asthma_Ever          0.097
+19    MyofascialPain_Ever          0.088
+7    BipolarDisorder_Ever          0.088
+21  FamilyDisruption_Ever          0.087
+1        CannabisUse_Ever          0.083
+10              ADHD_Ever          0.040
+23              HepC_Ever          0.026
+8      Schizophrenia_Ever          0.025
+24               HIV_Ever          0.010
+2         CocaineUse_Ever          0.006
+20    EatingDisorder_Ever          0.005
+3       StimulantUse_Ever          0.003
+4    HallucinogenUse_Ever          0.003
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.878
+HISPANIC OR LATINO               0.082
+DECLINED TO ANSWER               0.024
+UNKNOWN BY PATIENT               0.016
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.881
+Yes, Screened reports MST                  0.105
+Screened Declines to answer                0.011
+Unknown, not screened                      0.004
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.680
+BLACK OR AFRICAN AMERICAN                           0.224
+DECLINED TO ANSWER                                  0.049
+UNKNOWN BY PATIENT                                  0.014
+AMERICAN INDIAN OR ALASKA NATIVE                    0.011
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+WHITE NOT OF HISP ORIG                              0.006
+ASIAN                                               0.006
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.381
+Tramadol                0.259
+Oxycodone               0.247
+Codeine                 0.083
+Morphine                0.012
+Hydromorphone           0.010
+Buprenorphine           0.006
+Meperidine              0.001
+Methadone               0.001
+Levorphanol             0.000
+Fentanyl                0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.454
+DIVORCED                0.277
+NEVER MARRIED           0.148
+SEPARATED               0.056
+WIDOWED                 0.055
+UNKNOWN                 0.005
+WIDOW/WIDOWER           0.004
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.871
+FEMALE             0.129
+
+------------------------------------------------------------------------------------------
+-------------------- Level 7 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  62.812000
+1              NumVisits  44.369999
+5    TotalDaysSupply_Max  34.511002
+4   TotalDaysSupply_Mean  21.372999
+2             TotalNumRx  13.684000
+3    TotalDaysSupply_Min  11.600000
+8                MME_Max   9.447000
+7               MME_Mean   7.917000
+6                MME_Min   6.682000
+17     NumRx_Hydrocodone   6.490000
+12       NumRx_Oxycodone   4.063000
+20        NumRx_Tramadol   1.641000
+11          NumFills_Max   1.569000
+10         NumFills_Mean   1.207000
+9           NumFills_Min   1.056000
+18        NumRx_Morphine   0.729000
+21         NumRx_Codeine   0.388000
+23   NumRx_Buprenorphine   0.197000
+22   NumRx_Hydromorphone   0.104000
+24       NumRx_Methadone   0.047000
+13        NumRx_Fentanyl   0.022000
+14      NumRx_Meperidine   0.001000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.714
+5         Depression_Ever          0.514
+18           PainNEC_Ever          0.485
+9               PTSD_Ever          0.395
+6            Anxiety_Ever          0.388
+12          Diabetes_Ever          0.369
+16         Arthritis_Ever          0.342
+11           Obesity_Ever          0.308
+22        TobaccoUse_Ever          0.288
+13              COPD_Ever          0.258
+0         AlcoholUse_Ever          0.233
+15      HeartFailure_Ever          0.139
+21  FamilyDisruption_Ever          0.107
+1        CannabisUse_Ever          0.106
+14            Asthma_Ever          0.093
+7    BipolarDisorder_Ever          0.092
+19    MyofascialPain_Ever          0.088
+23              HepC_Ever          0.034
+10              ADHD_Ever          0.033
+8      Schizophrenia_Ever          0.025
+2         CocaineUse_Ever          0.015
+24               HIV_Ever          0.011
+3       StimulantUse_Ever          0.010
+4    HallucinogenUse_Ever          0.004
+20    EatingDisorder_Ever          0.003
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.892
+HISPANIC OR LATINO               0.065
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.013
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.886
+Yes, Screened reports MST                  0.095
+Screened Declines to answer                0.017
+Unknown, not screened                      0.002
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.714
+BLACK OR AFRICAN AMERICAN                           0.198
+DECLINED TO ANSWER                                  0.043
+UNKNOWN BY PATIENT                                  0.014
+AMERICAN INDIAN OR ALASKA NATIVE                    0.014
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.008
+ASIAN                                               0.005
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.398
+Oxycodone               0.247
+Tramadol                0.243
+Codeine                 0.079
+Hydromorphone           0.013
+Morphine                0.012
+Buprenorphine           0.007
+Meperidine              0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Methadone               0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.411
+DIVORCED                0.312
+NEVER MARRIED           0.173
+WIDOWED                 0.047
+SEPARATED               0.046
+WIDOW/WIDOWER           0.005
+SINGLE                  0.004
+UNKNOWN                 0.002
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.897
+FEMALE             0.103
+
+------------------------------------------------------------------------------------------
+-------------------- Level 8 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.637001
+1              NumVisits  47.785999
+5    TotalDaysSupply_Max  35.995998
+4   TotalDaysSupply_Mean  21.857000
+2             TotalNumRx  17.627001
+3    TotalDaysSupply_Min  11.767000
+8                MME_Max  10.517000
+7               MME_Mean   8.411000
+17     NumRx_Hydrocodone   8.391000
+6                MME_Min   6.762000
+12       NumRx_Oxycodone   5.347000
+11          NumFills_Max   1.550000
+18        NumRx_Morphine   1.415000
+20        NumRx_Tramadol   1.372000
+10         NumFills_Mean   1.157000
+9           NumFills_Min   1.040000
+21         NumRx_Codeine   0.444000
+23   NumRx_Buprenorphine   0.286000
+22   NumRx_Hydromorphone   0.190000
+24       NumRx_Methadone   0.099000
+13        NumRx_Fentanyl   0.076000
+19      NumRx_Tapentadol   0.004000
+14      NumRx_Meperidine   0.002000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.733
+18           PainNEC_Ever          0.552
+5         Depression_Ever          0.547
+6            Anxiety_Ever          0.399
+9               PTSD_Ever          0.393
+12          Diabetes_Ever          0.358
+16         Arthritis_Ever          0.350
+22        TobaccoUse_Ever          0.324
+0         AlcoholUse_Ever          0.311
+11           Obesity_Ever          0.288
+13              COPD_Ever          0.266
+15      HeartFailure_Ever          0.161
+1        CannabisUse_Ever          0.131
+21  FamilyDisruption_Ever          0.105
+7    BipolarDisorder_Ever          0.100
+19    MyofascialPain_Ever          0.100
+23              HepC_Ever          0.070
+14            Asthma_Ever          0.068
+2         CocaineUse_Ever          0.044
+10              ADHD_Ever          0.039
+3       StimulantUse_Ever          0.030
+8      Schizophrenia_Ever          0.023
+24               HIV_Ever          0.011
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.002
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.901
+HISPANIC OR LATINO               0.056
+DECLINED TO ANSWER               0.034
+UNKNOWN BY PATIENT               0.009
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.883
+Yes, Screened reports MST                  0.098
+Screened Declines to answer                0.019
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.730
+BLACK OR AFRICAN AMERICAN                           0.178
+DECLINED TO ANSWER                                  0.051
+UNKNOWN BY PATIENT                                  0.014
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.009
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+ASIAN                                               0.005
+WHITE NOT OF HISP ORIG                              0.005
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.415
+Oxycodone               0.275
+Tramadol                0.189
+Codeine                 0.075
+Morphine                0.022
+Hydromorphone           0.012
+Buprenorphine           0.007
+Fentanyl                0.003
+Tapentadol              0.001
+Methadone               0.000
+Levorphanol             0.000
+Meperidine              0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.364
+MARRIED                 0.358
+NEVER MARRIED           0.159
+SEPARATED               0.065
+WIDOWED                 0.046
+WIDOW/WIDOWER           0.005
+UNKNOWN                 0.003
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.901
+FEMALE             0.099
+
+------------------------------------------------------------------------------------------
+-------------------- Level 9 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.665001
+1              NumVisits  58.139999
+5    TotalDaysSupply_Max  36.310001
+2             TotalNumRx  23.612000
+4   TotalDaysSupply_Mean  22.726000
+8                MME_Max  14.079000
+3    TotalDaysSupply_Min  11.537000
+7               MME_Mean   9.959000
+12       NumRx_Oxycodone   9.301000
+17     NumRx_Hydrocodone   7.574000
+6                MME_Min   7.242000
+18        NumRx_Morphine   3.284000
+11          NumFills_Max   1.502000
+20        NumRx_Tramadol   1.281000
+10         NumFills_Mean   1.138000
+9           NumFills_Min   1.044000
+24       NumRx_Methadone   0.813000
+23   NumRx_Buprenorphine   0.425000
+21         NumRx_Codeine   0.361000
+13        NumRx_Fentanyl   0.298000
+22   NumRx_Hydromorphone   0.237000
+19      NumRx_Tapentadol   0.032000
+14      NumRx_Meperidine   0.005000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.771
+18           PainNEC_Ever          0.630
+5         Depression_Ever          0.612
+6            Anxiety_Ever          0.456
+9               PTSD_Ever          0.440
+22        TobaccoUse_Ever          0.415
+0         AlcoholUse_Ever          0.408
+16         Arthritis_Ever          0.361
+12          Diabetes_Ever          0.357
+13              COPD_Ever          0.319
+11           Obesity_Ever          0.307
+1        CannabisUse_Ever          0.203
+15      HeartFailure_Ever          0.175
+21  FamilyDisruption_Ever          0.134
+7    BipolarDisorder_Ever          0.124
+2         CocaineUse_Ever          0.122
+23              HepC_Ever          0.116
+19    MyofascialPain_Ever          0.109
+14            Asthma_Ever          0.081
+3       StimulantUse_Ever          0.075
+10              ADHD_Ever          0.047
+8      Schizophrenia_Ever          0.028
+24               HIV_Ever          0.016
+20    EatingDisorder_Ever          0.007
+4    HallucinogenUse_Ever          0.004
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.908
+HISPANIC OR LATINO               0.051
+DECLINED TO ANSWER               0.028
+UNKNOWN BY PATIENT               0.012
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.870
+Yes, Screened reports MST                  0.110
+Screened Declines to answer                0.019
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.724
+BLACK OR AFRICAN AMERICAN                           0.202
+DECLINED TO ANSWER                                  0.042
+UNKNOWN BY PATIENT                                  0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.002
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.362
+Oxycodone               0.331
+Tramadol                0.169
+Codeine                 0.053
+Morphine                0.051
+Hydromorphone           0.012
+Methadone               0.010
+Fentanyl                0.006
+Buprenorphine           0.005
+Tapentadol              0.002
+Meperidine              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.387
+MARRIED                 0.331
+NEVER MARRIED           0.162
+SEPARATED               0.070
+WIDOWED                 0.044
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.002
+COMMON-LAW              0.000
+*Missing*               0.000
+SINGLE                  0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.911
+FEMALE             0.089
+
+------------------------------------------------------------------------------------------
+-------------------- Level 10 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+1              NumVisits  65.132004
+0                    Age  64.180000
+5    TotalDaysSupply_Max  32.852001
+2             TotalNumRx  26.643000
+4   TotalDaysSupply_Mean  21.947001
+8                MME_Max  21.243000
+7               MME_Mean  13.728000
+3    TotalDaysSupply_Min  11.014000
+12       NumRx_Oxycodone  10.537000
+6                MME_Min   8.303000
+18        NumRx_Morphine   6.965000
+17     NumRx_Hydrocodone   4.790000
+24       NumRx_Methadone   1.491000
+11          NumFills_Max   1.377000
+10         NumFills_Mean   1.089000
+9           NumFills_Min   1.021000
+13        NumRx_Fentanyl   0.833000
+20        NumRx_Tramadol   0.811000
+22   NumRx_Hydromorphone   0.622000
+21         NumRx_Codeine   0.310000
+23   NumRx_Buprenorphine   0.253000
+19      NumRx_Tapentadol   0.020000
+14      NumRx_Meperidine   0.010000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.789
+18           PainNEC_Ever          0.669
+5         Depression_Ever          0.637
+22        TobaccoUse_Ever          0.474
+6            Anxiety_Ever          0.449
+0         AlcoholUse_Ever          0.442
+9               PTSD_Ever          0.432
+12          Diabetes_Ever          0.366
+16         Arthritis_Ever          0.351
+13              COPD_Ever          0.340
+11           Obesity_Ever          0.282
+1        CannabisUse_Ever          0.254
+2         CocaineUse_Ever          0.241
+23              HepC_Ever          0.174
+15      HeartFailure_Ever          0.162
+3       StimulantUse_Ever          0.153
+7    BipolarDisorder_Ever          0.151
+21  FamilyDisruption_Ever          0.137
+19    MyofascialPain_Ever          0.107
+14            Asthma_Ever          0.091
+10              ADHD_Ever          0.045
+8      Schizophrenia_Ever          0.036
+24               HIV_Ever          0.017
+4    HallucinogenUse_Ever          0.007
+20    EatingDisorder_Ever          0.003
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.907
+HISPANIC OR LATINO               0.051
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.014
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.865
+Yes, Screened reports MST                  0.111
+Screened Declines to answer                0.021
+Unknown, not screened                      0.003
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.697
+BLACK OR AFRICAN AMERICAN                           0.229
+DECLINED TO ANSWER                                  0.043
+UNKNOWN BY PATIENT                                  0.011
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.007
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.001
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.349
+Hydrocodone             0.270
+Morphine                0.141
+Tramadol                0.125
+Codeine                 0.045
+Methadone               0.035
+Hydromorphone           0.019
+Fentanyl                0.014
+Buprenorphine           0.002
+Tapentadol              0.001
+Levorphanol             0.000
+Meperidine              0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.381
+MARRIED                 0.334
+NEVER MARRIED           0.174
+SEPARATED               0.065
+WIDOWED                 0.040
+WIDOW/WIDOWER           0.005
+UNKNOWN                 0.001
+SINGLE                  0.000
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.928
+FEMALE             0.072
+
+------------------------------------------------------------------------------------------
+-------------------- Level 11 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.764999
+1              NumVisits  55.476002
+5    TotalDaysSupply_Max  30.384001
+8                MME_Max  26.297001
+2             TotalNumRx  23.757000
+4   TotalDaysSupply_Mean  21.589001
+7               MME_Mean  16.912001
+3    TotalDaysSupply_Min  10.425000
+12       NumRx_Oxycodone   9.761000
+6                MME_Min   9.491000
+18        NumRx_Morphine   6.048000
+17     NumRx_Hydrocodone   3.375000
+24       NumRx_Methadone   2.129000
+11          NumFills_Max   1.293000
+10         NumFills_Mean   1.069000
+9           NumFills_Min   1.017000
+13        NumRx_Fentanyl   0.779000
+22   NumRx_Hydromorphone   0.668000
+20        NumRx_Tramadol   0.662000
+21         NumRx_Codeine   0.178000
+23   NumRx_Buprenorphine   0.140000
+19      NumRx_Tapentadol   0.009000
+16     NumRx_Oxymorphone   0.004000
+14      NumRx_Meperidine   0.003000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.777
+18           PainNEC_Ever          0.722
+5         Depression_Ever          0.703
+0         AlcoholUse_Ever          0.548
+22        TobaccoUse_Ever          0.547
+6            Anxiety_Ever          0.490
+9               PTSD_Ever          0.465
+2         CocaineUse_Ever          0.358
+13              COPD_Ever          0.349
+1        CannabisUse_Ever          0.337
+12          Diabetes_Ever          0.331
+16         Arthritis_Ever          0.294
+3       StimulantUse_Ever          0.270
+23              HepC_Ever          0.257
+11           Obesity_Ever          0.241
+7    BipolarDisorder_Ever          0.209
+15      HeartFailure_Ever          0.153
+21  FamilyDisruption_Ever          0.119
+19    MyofascialPain_Ever          0.085
+14            Asthma_Ever          0.064
+8      Schizophrenia_Ever          0.051
+10              ADHD_Ever          0.040
+24               HIV_Ever          0.023
+4    HallucinogenUse_Ever          0.014
+20    EatingDisorder_Ever          0.006
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.911
+HISPANIC OR LATINO               0.047
+DECLINED TO ANSWER               0.031
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.820
+Yes, Screened reports MST                  0.149
+Screened Declines to answer                0.029
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.685
+BLACK OR AFRICAN AMERICAN                           0.239
+DECLINED TO ANSWER                                  0.045
+AMERICAN INDIAN OR ALASKA NATIVE                    0.015
+UNKNOWN BY PATIENT                                  0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.003
+WHITE NOT OF HISP ORIG                              0.003
+ASIAN                                               0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.344
+Hydrocodone             0.221
+Morphine                0.161
+Tramadol                0.122
+Methadone               0.073
+Codeine                 0.039
+Hydromorphone           0.021
+Fentanyl                0.016
+Meperidine              0.002
+Buprenorphine           0.001
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.419
+MARRIED                 0.264
+NEVER MARRIED           0.185
+SEPARATED               0.076
+WIDOWED                 0.050
+WIDOW/WIDOWER           0.005
+SINGLE                  0.001
+UNKNOWN                 0.001
+COMMON-LAW              0.000
+*Missing*               0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.935
+FEMALE             0.065
+
+------------------------------------------------------------------------------------------
+-------------------- Level 12 | POSITIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  61.602001
+1              NumVisits  47.268002
+5    TotalDaysSupply_Max  29.025000
+8                MME_Max  23.165001
+4   TotalDaysSupply_Mean  19.474001
+2             TotalNumRx  17.013000
+7               MME_Mean  15.867000
+6                MME_Min   9.006000
+3    TotalDaysSupply_Min   8.862000
+12       NumRx_Oxycodone   7.204000
+18        NumRx_Morphine   4.045000
+17     NumRx_Hydrocodone   2.366000
+24       NumRx_Methadone   1.905000
+11          NumFills_Max   1.296000
+10         NumFills_Mean   1.069000
+9           NumFills_Min   1.017000
+20        NumRx_Tramadol   0.692000
+22   NumRx_Hydromorphone   0.326000
+13        NumRx_Fentanyl   0.274000
+21         NumRx_Codeine   0.112000
+23   NumRx_Buprenorphine   0.089000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+14      NumRx_Meperidine   0.000000
+19      NumRx_Tapentadol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+5         Depression_Ever          0.762
+0         AlcoholUse_Ever          0.741
+17   ChronicBackPain_Ever          0.737
+18           PainNEC_Ever          0.732
+22        TobaccoUse_Ever          0.706
+2         CocaineUse_Ever          0.615
+9               PTSD_Ever          0.537
+3       StimulantUse_Ever          0.535
+6            Anxiety_Ever          0.523
+1        CannabisUse_Ever          0.521
+23              HepC_Ever          0.499
+7    BipolarDisorder_Ever          0.372
+13              COPD_Ever          0.350
+12          Diabetes_Ever          0.247
+16         Arthritis_Ever          0.197
+11           Obesity_Ever          0.151
+15      HeartFailure_Ever          0.126
+21  FamilyDisruption_Ever          0.122
+8      Schizophrenia_Ever          0.077
+19    MyofascialPain_Ever          0.060
+14            Asthma_Ever          0.049
+10              ADHD_Ever          0.044
+24               HIV_Ever          0.030
+4    HallucinogenUse_Ever          0.021
+20    EatingDisorder_Ever          0.007
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.945
+HISPANIC OR LATINO               0.034
+DECLINED TO ANSWER               0.017
+UNKNOWN BY PATIENT               0.004
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.694
+Yes, Screened reports MST                  0.267
+Screened Declines to answer                0.038
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.739
+BLACK OR AFRICAN AMERICAN                           0.236
+DECLINED TO ANSWER                                  0.015
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+UNKNOWN BY PATIENT                                  0.002
+ASIAN                                               0.001
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.000
+WHITE NOT OF HISP ORIG                              0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.358
+Hydrocodone             0.234
+Tramadol                0.165
+Morphine                0.122
+Methadone               0.065
+Codeine                 0.029
+Hydromorphone           0.018
+Fentanyl                0.010
+Buprenorphine           0.000
+Levorphanol             0.000
+Meperidine              0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.477
+NEVER MARRIED           0.216
+MARRIED                 0.137
+SEPARATED               0.113
+WIDOWED                 0.050
+WIDOW/WIDOWER           0.006
+*Missing*               0.000
+COMMON-LAW              0.000
+SINGLE                  0.000
+UNKNOWN                 0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.959
+FEMALE             0.041
+
+------------------------------------------------------------------------------------------
+-------------------- Level 1 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  70.135002
+1              NumVisits  50.992001
+5    TotalDaysSupply_Max  18.451000
+4   TotalDaysSupply_Mean  14.070000
+3    TotalDaysSupply_Min   9.815000
+8                MME_Max   7.710000
+7               MME_Mean   7.332000
+6                MME_Min   6.937000
+2             TotalNumRx   4.677000
+17     NumRx_Hydrocodone   2.870000
+11          NumFills_Max   1.274000
+20        NumRx_Tramadol   1.220000
+10         NumFills_Mean   1.156000
+9           NumFills_Min   1.053000
+12       NumRx_Oxycodone   0.399000
+21         NumRx_Codeine   0.164000
+22   NumRx_Hydromorphone   0.012000
+18        NumRx_Morphine   0.008000
+23   NumRx_Buprenorphine   0.003000
+14      NumRx_Meperidine   0.001000
+13        NumRx_Fentanyl   0.000000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+19      NumRx_Tapentadol   0.000000
+24       NumRx_Methadone   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.695
+11           Obesity_Ever          0.604
+16         Arthritis_Ever          0.604
+12          Diabetes_Ever          0.549
+5         Depression_Ever          0.277
+9               PTSD_Ever          0.259
+6            Anxiety_Ever          0.246
+18           PainNEC_Ever          0.227
+15      HeartFailure_Ever          0.169
+13              COPD_Ever          0.157
+14            Asthma_Ever          0.146
+21  FamilyDisruption_Ever          0.099
+19    MyofascialPain_Ever          0.098
+22        TobaccoUse_Ever          0.043
+10              ADHD_Ever          0.029
+0         AlcoholUse_Ever          0.011
+7    BipolarDisorder_Ever          0.009
+20    EatingDisorder_Ever          0.007
+8      Schizophrenia_Ever          0.006
+24               HIV_Ever          0.002
+1        CannabisUse_Ever          0.002
+23              HepC_Ever          0.001
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.836
+HISPANIC OR LATINO               0.098
+UNKNOWN BY PATIENT               0.034
+DECLINED TO ANSWER               0.033
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.941
+Yes, Screened reports MST                  0.054
+Screened Declines to answer                0.004
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.666
+BLACK OR AFRICAN AMERICAN                           0.195
+DECLINED TO ANSWER                                  0.057
+ASIAN                                               0.029
+UNKNOWN BY PATIENT                                  0.024
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.020
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+WHITE NOT OF HISP ORIG                              0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.333
+Tramadol                0.305
+Oxycodone               0.230
+Codeine                 0.123
+Hydromorphone           0.005
+Morphine                0.003
+Buprenorphine           0.000
+Meperidine              0.000
+Fentanyl                0.000
+Methadone               0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.790
+DIVORCED                0.091
+NEVER MARRIED           0.059
+WIDOWED                 0.038
+UNKNOWN                 0.009
+SEPARATED               0.008
+*Missing*               0.003
+WIDOW/WIDOWER           0.001
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.827
+FEMALE             0.173
+
+------------------------------------------------------------------------------------------
+-------------------- Level 2 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  67.474998
+1              NumVisits  45.881001
+5    TotalDaysSupply_Max  23.719000
+4   TotalDaysSupply_Mean  16.868000
+3    TotalDaysSupply_Min  10.543000
+8                MME_Max   7.950000
+7               MME_Mean   7.431000
+6                MME_Min   6.882000
+2             TotalNumRx   5.559000
+17     NumRx_Hydrocodone   3.056000
+20        NumRx_Tramadol   1.637000
+11          NumFills_Max   1.391000
+10         NumFills_Mean   1.205000
+9           NumFills_Min   1.058000
+12       NumRx_Oxycodone   0.514000
+21         NumRx_Codeine   0.233000
+18        NumRx_Morphine   0.074000
+22   NumRx_Hydromorphone   0.018000
+23   NumRx_Buprenorphine   0.013000
+24       NumRx_Methadone   0.012000
+14      NumRx_Meperidine   0.002000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+13        NumRx_Fentanyl   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.704
+11           Obesity_Ever          0.533
+16         Arthritis_Ever          0.512
+12          Diabetes_Ever          0.490
+5         Depression_Ever          0.374
+18           PainNEC_Ever          0.328
+9               PTSD_Ever          0.310
+6            Anxiety_Ever          0.289
+13              COPD_Ever          0.178
+15      HeartFailure_Ever          0.158
+14            Asthma_Ever          0.121
+19    MyofascialPain_Ever          0.104
+21  FamilyDisruption_Ever          0.100
+22        TobaccoUse_Ever          0.090
+10              ADHD_Ever          0.034
+0         AlcoholUse_Ever          0.030
+7    BipolarDisorder_Ever          0.016
+1        CannabisUse_Ever          0.008
+20    EatingDisorder_Ever          0.007
+8      Schizophrenia_Ever          0.007
+24               HIV_Ever          0.004
+23              HepC_Ever          0.002
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.858
+HISPANIC OR LATINO               0.092
+DECLINED TO ANSWER               0.032
+UNKNOWN BY PATIENT               0.019
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.925
+Yes, Screened reports MST                  0.067
+Screened Declines to answer                0.008
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.692
+BLACK OR AFRICAN AMERICAN                           0.200
+DECLINED TO ANSWER                                  0.052
+UNKNOWN BY PATIENT                                  0.016
+ASIAN                                               0.015
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.014
+AMERICAN INDIAN OR ALASKA NATIVE                    0.007
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.329
+Tramadol                0.301
+Oxycodone               0.247
+Codeine                 0.110
+Hydromorphone           0.006
+Morphine                0.005
+Buprenorphine           0.001
+Meperidine              0.000
+Fentanyl                0.000
+Methadone               0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.684
+DIVORCED                0.152
+NEVER MARRIED           0.088
+WIDOWED                 0.045
+SEPARATED               0.018
+UNKNOWN                 0.007
+WIDOW/WIDOWER           0.002
+*Missing*               0.002
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.849
+FEMALE             0.151
+
+------------------------------------------------------------------------------------------
+-------------------- Level 3 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  65.982002
+1              NumVisits  43.205002
+5    TotalDaysSupply_Max  26.715000
+4   TotalDaysSupply_Mean  18.108999
+3    TotalDaysSupply_Min  10.494000
+8                MME_Max   8.115000
+7               MME_Mean   7.495000
+6                MME_Min   6.826000
+2             TotalNumRx   5.598000
+17     NumRx_Hydrocodone   2.652000
+20        NumRx_Tramadol   1.860000
+11          NumFills_Max   1.456000
+10         NumFills_Mean   1.228000
+9           NumFills_Min   1.057000
+12       NumRx_Oxycodone   0.632000
+21         NumRx_Codeine   0.290000
+18        NumRx_Morphine   0.101000
+23   NumRx_Buprenorphine   0.029000
+22   NumRx_Hydromorphone   0.021000
+24       NumRx_Methadone   0.009000
+14      NumRx_Meperidine   0.002000
+13        NumRx_Fentanyl   0.001000
+15     NumRx_Levorphanol   0.000000
+16     NumRx_Oxymorphone   0.000000
+19      NumRx_Tapentadol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.708
+11           Obesity_Ever          0.468
+16         Arthritis_Ever          0.467
+12          Diabetes_Ever          0.454
+5         Depression_Ever          0.418
+18           PainNEC_Ever          0.376
+9               PTSD_Ever          0.330
+6            Anxiety_Ever          0.307
+13              COPD_Ever          0.190
+15      HeartFailure_Ever          0.148
+22        TobaccoUse_Ever          0.126
+14            Asthma_Ever          0.112
+19    MyofascialPain_Ever          0.101
+21  FamilyDisruption_Ever          0.098
+0         AlcoholUse_Ever          0.057
+10              ADHD_Ever          0.035
+7    BipolarDisorder_Ever          0.024
+1        CannabisUse_Ever          0.015
+8      Schizophrenia_Ever          0.009
+24               HIV_Ever          0.005
+20    EatingDisorder_Ever          0.005
+23              HepC_Ever          0.002
+3       StimulantUse_Ever          0.000
+4    HallucinogenUse_Ever          0.000
+2         CocaineUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.865
+HISPANIC OR LATINO               0.089
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.017
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.916
+Yes, Screened reports MST                  0.076
+Screened Declines to answer                0.008
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.703
+BLACK OR AFRICAN AMERICAN                           0.200
+DECLINED TO ANSWER                                  0.050
+UNKNOWN BY PATIENT                                  0.013
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.012
+ASIAN                                               0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+WHITE NOT OF HISP ORIG                              0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.333
+Tramadol                0.298
+Oxycodone               0.252
+Codeine                 0.102
+Hydromorphone           0.007
+Morphine                0.005
+Buprenorphine           0.002
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.622
+DIVORCED                0.195
+NEVER MARRIED           0.103
+WIDOWED                 0.043
+SEPARATED               0.025
+UNKNOWN                 0.006
+WIDOW/WIDOWER           0.003
+*Missing*               0.002
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.859
+FEMALE             0.141
+
+------------------------------------------------------------------------------------------
+-------------------- Level 4 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  64.786003
+1              NumVisits  42.323002
+5    TotalDaysSupply_Max  28.663000
+4   TotalDaysSupply_Mean  18.896999
+3    TotalDaysSupply_Min  10.647000
+8                MME_Max   8.291000
+7               MME_Mean   7.532000
+6                MME_Min   6.760000
+2             TotalNumRx   6.286000
+17     NumRx_Hydrocodone   2.720000
+20        NumRx_Tramadol   1.925000
+11          NumFills_Max   1.489000
+10         NumFills_Mean   1.231000
+9           NumFills_Min   1.057000
+12       NumRx_Oxycodone   1.011000
+21         NumRx_Codeine   0.357000
+18        NumRx_Morphine   0.163000
+23   NumRx_Buprenorphine   0.048000
+22   NumRx_Hydromorphone   0.023000
+24       NumRx_Methadone   0.019000
+13        NumRx_Fentanyl   0.016000
+14      NumRx_Meperidine   0.003000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.714
+5         Depression_Ever          0.451
+12          Diabetes_Ever          0.427
+16         Arthritis_Ever          0.426
+18           PainNEC_Ever          0.413
+11           Obesity_Ever          0.405
+9               PTSD_Ever          0.347
+6            Anxiety_Ever          0.328
+13              COPD_Ever          0.199
+22        TobaccoUse_Ever          0.160
+15      HeartFailure_Ever          0.141
+14            Asthma_Ever          0.104
+21  FamilyDisruption_Ever          0.100
+19    MyofascialPain_Ever          0.095
+0         AlcoholUse_Ever          0.092
+10              ADHD_Ever          0.038
+7    BipolarDisorder_Ever          0.032
+1        CannabisUse_Ever          0.027
+8      Schizophrenia_Ever          0.010
+24               HIV_Ever          0.006
+20    EatingDisorder_Ever          0.005
+23              HepC_Ever          0.005
+2         CocaineUse_Ever          0.001
+3       StimulantUse_Ever          0.001
+4    HallucinogenUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.877
+HISPANIC OR LATINO               0.081
+DECLINED TO ANSWER               0.027
+UNKNOWN BY PATIENT               0.015
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.913
+Yes, Screened reports MST                  0.078
+Screened Declines to answer                0.009
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.709
+BLACK OR AFRICAN AMERICAN                           0.202
+DECLINED TO ANSWER                                  0.047
+UNKNOWN BY PATIENT                                  0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+ASIAN                                               0.008
+WHITE NOT OF HISP ORIG                              0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.340
+Tramadol                0.285
+Oxycodone               0.258
+Codeine                 0.098
+Hydromorphone           0.008
+Morphine                0.006
+Buprenorphine           0.003
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.560
+DIVORCED                0.232
+NEVER MARRIED           0.124
+WIDOWED                 0.044
+SEPARATED               0.029
+UNKNOWN                 0.005
+WIDOW/WIDOWER           0.003
+*Missing*               0.001
+SINGLE                  0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.863
+FEMALE             0.137
+
+------------------------------------------------------------------------------------------
+-------------------- Level 5 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.831001
+1              NumVisits  40.549000
+5    TotalDaysSupply_Max  30.954000
+4   TotalDaysSupply_Mean  19.790001
+3    TotalDaysSupply_Min  11.110000
+8                MME_Max   8.520000
+7               MME_Mean   7.613000
+2             TotalNumRx   7.517000
+6                MME_Min   6.732000
+17     NumRx_Hydrocodone   3.404000
+20        NumRx_Tramadol   1.958000
+11          NumFills_Max   1.528000
+12       NumRx_Oxycodone   1.416000
+10         NumFills_Mean   1.232000
+9           NumFills_Min   1.059000
+21         NumRx_Codeine   0.399000
+18        NumRx_Morphine   0.192000
+23   NumRx_Buprenorphine   0.079000
+22   NumRx_Hydromorphone   0.039000
+24       NumRx_Methadone   0.019000
+13        NumRx_Fentanyl   0.008000
+14      NumRx_Meperidine   0.003000
+19      NumRx_Tapentadol   0.001000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.710
+5         Depression_Ever          0.470
+18           PainNEC_Ever          0.433
+12          Diabetes_Ever          0.395
+16         Arthritis_Ever          0.383
+9               PTSD_Ever          0.352
+11           Obesity_Ever          0.349
+6            Anxiety_Ever          0.343
+13              COPD_Ever          0.206
+22        TobaccoUse_Ever          0.197
+15      HeartFailure_Ever          0.141
+0         AlcoholUse_Ever          0.122
+14            Asthma_Ever          0.094
+21  FamilyDisruption_Ever          0.094
+19    MyofascialPain_Ever          0.092
+1        CannabisUse_Ever          0.042
+7    BipolarDisorder_Ever          0.041
+10              ADHD_Ever          0.041
+8      Schizophrenia_Ever          0.010
+23              HepC_Ever          0.008
+24               HIV_Ever          0.006
+20    EatingDisorder_Ever          0.005
+3       StimulantUse_Ever          0.002
+2         CocaineUse_Ever          0.001
+4    HallucinogenUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.881
+HISPANIC OR LATINO               0.077
+DECLINED TO ANSWER               0.029
+UNKNOWN BY PATIENT               0.012
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.904
+Yes, Screened reports MST                  0.086
+Screened Declines to answer                0.009
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.713
+BLACK OR AFRICAN AMERICAN                           0.198
+DECLINED TO ANSWER                                  0.050
+UNKNOWN BY PATIENT                                  0.012
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.010
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+ASIAN                                               0.004
+WHITE NOT OF HISP ORIG                              0.004
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.352
+Tramadol                0.277
+Oxycodone               0.256
+Codeine                 0.091
+Hydromorphone           0.009
+Morphine                0.009
+Buprenorphine           0.005
+Meperidine              0.001
+Fentanyl                0.000
+Methadone               0.000
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.503
+DIVORCED                0.269
+NEVER MARRIED           0.140
+WIDOWED                 0.041
+SEPARATED               0.037
+UNKNOWN                 0.005
+WIDOW/WIDOWER           0.003
+SINGLE                  0.001
+*Missing*               0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.871
+FEMALE             0.129
+
+------------------------------------------------------------------------------------------
+-------------------- Level 6 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.273998
+1              NumVisits  40.881001
+5    TotalDaysSupply_Max  33.007000
+4   TotalDaysSupply_Mean  20.788000
+3    TotalDaysSupply_Min  11.565000
+2             TotalNumRx   9.451000
+8                MME_Max   8.772000
+7               MME_Mean   7.681000
+6                MME_Min   6.682000
+17     NumRx_Hydrocodone   4.605000
+12       NumRx_Oxycodone   2.054000
+20        NumRx_Tramadol   1.867000
+11          NumFills_Max   1.552000
+10         NumFills_Mean   1.227000
+9           NumFills_Min   1.059000
+21         NumRx_Codeine   0.435000
+18        NumRx_Morphine   0.247000
+23   NumRx_Buprenorphine   0.143000
+24       NumRx_Methadone   0.043000
+22   NumRx_Hydromorphone   0.035000
+13        NumRx_Fentanyl   0.016000
+14      NumRx_Meperidine   0.004000
+19      NumRx_Tapentadol   0.003000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.713
+5         Depression_Ever          0.495
+18           PainNEC_Ever          0.452
+12          Diabetes_Ever          0.374
+9               PTSD_Ever          0.367
+16         Arthritis_Ever          0.356
+6            Anxiety_Ever          0.353
+11           Obesity_Ever          0.313
+22        TobaccoUse_Ever          0.236
+13              COPD_Ever          0.224
+0         AlcoholUse_Ever          0.180
+15      HeartFailure_Ever          0.137
+21  FamilyDisruption_Ever          0.099
+19    MyofascialPain_Ever          0.089
+14            Asthma_Ever          0.086
+1        CannabisUse_Ever          0.066
+7    BipolarDisorder_Ever          0.055
+10              ADHD_Ever          0.040
+23              HepC_Ever          0.016
+8      Schizophrenia_Ever          0.011
+24               HIV_Ever          0.007
+20    EatingDisorder_Ever          0.006
+2         CocaineUse_Ever          0.003
+3       StimulantUse_Ever          0.003
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.888
+HISPANIC OR LATINO               0.072
+DECLINED TO ANSWER               0.028
+UNKNOWN BY PATIENT               0.013
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.903
+Yes, Screened reports MST                  0.086
+Screened Declines to answer                0.010
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.722
+BLACK OR AFRICAN AMERICAN                           0.194
+DECLINED TO ANSWER                                  0.048
+UNKNOWN BY PATIENT                                  0.011
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.007
+WHITE NOT OF HISP ORIG                              0.005
+ASIAN                                               0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.370
+Tramadol                0.260
+Oxycodone               0.258
+Codeine                 0.085
+Morphine                0.010
+Hydromorphone           0.009
+Buprenorphine           0.006
+Meperidine              0.001
+Methadone               0.000
+Fentanyl                0.000
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.458
+DIVORCED                0.293
+NEVER MARRIED           0.154
+SEPARATED               0.045
+WIDOWED                 0.042
+UNKNOWN                 0.004
+WIDOW/WIDOWER           0.003
+SINGLE                  0.001
+*Missing*               0.001
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.888
+FEMALE             0.112
+
+------------------------------------------------------------------------------------------
+-------------------- Level 7 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.323002
+1              NumVisits  43.686001
+5    TotalDaysSupply_Max  34.328999
+4   TotalDaysSupply_Mean  21.502001
+2             TotalNumRx  13.117000
+3    TotalDaysSupply_Min  12.064000
+8                MME_Max   9.368000
+7               MME_Mean   7.883000
+17     NumRx_Hydrocodone   6.919000
+6                MME_Min   6.668000
+12       NumRx_Oxycodone   3.220000
+20        NumRx_Tramadol   1.651000
+11          NumFills_Max   1.537000
+10         NumFills_Mean   1.196000
+9           NumFills_Min   1.053000
+18        NumRx_Morphine   0.562000
+21         NumRx_Codeine   0.415000
+23   NumRx_Buprenorphine   0.213000
+22   NumRx_Hydromorphone   0.046000
+24       NumRx_Methadone   0.045000
+13        NumRx_Fentanyl   0.034000
+19      NumRx_Tapentadol   0.010000
+14      NumRx_Meperidine   0.003000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.726
+5         Depression_Ever          0.509
+18           PainNEC_Ever          0.484
+9               PTSD_Ever          0.375
+6            Anxiety_Ever          0.359
+12          Diabetes_Ever          0.359
+16         Arthritis_Ever          0.339
+11           Obesity_Ever          0.289
+22        TobaccoUse_Ever          0.281
+13              COPD_Ever          0.244
+0         AlcoholUse_Ever          0.235
+15      HeartFailure_Ever          0.139
+21  FamilyDisruption_Ever          0.100
+1        CannabisUse_Ever          0.090
+19    MyofascialPain_Ever          0.089
+14            Asthma_Ever          0.081
+7    BipolarDisorder_Ever          0.066
+10              ADHD_Ever          0.039
+23              HepC_Ever          0.031
+8      Schizophrenia_Ever          0.013
+2         CocaineUse_Ever          0.009
+24               HIV_Ever          0.008
+3       StimulantUse_Ever          0.006
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.000
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.901
+HISPANIC OR LATINO               0.062
+DECLINED TO ANSWER               0.026
+UNKNOWN BY PATIENT               0.011
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.902
+Yes, Screened reports MST                  0.086
+Screened Declines to answer                0.012
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.727
+BLACK OR AFRICAN AMERICAN                           0.195
+DECLINED TO ANSWER                                  0.044
+AMERICAN INDIAN OR ALASKA NATIVE                    0.011
+UNKNOWN BY PATIENT                                  0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.007
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.003
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.416
+Oxycodone               0.254
+Tramadol                0.223
+Codeine                 0.075
+Morphine                0.014
+Hydromorphone           0.009
+Buprenorphine           0.007
+Methadone               0.001
+Fentanyl                0.001
+Meperidine              0.001
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.404
+DIVORCED                0.334
+NEVER MARRIED           0.161
+SEPARATED               0.053
+WIDOWED                 0.041
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.003
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.902
+FEMALE             0.098
+
+------------------------------------------------------------------------------------------
+-------------------- Level 8 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.671001
+1              NumVisits  48.313000
+5    TotalDaysSupply_Max  35.388000
+4   TotalDaysSupply_Mean  22.509001
+2             TotalNumRx  18.183001
+3    TotalDaysSupply_Min  12.533000
+8                MME_Max  10.532000
+17     NumRx_Hydrocodone   9.138000
+7               MME_Mean   8.386000
+6                MME_Min   6.773000
+12       NumRx_Oxycodone   5.408000
+11          NumFills_Max   1.502000
+20        NumRx_Tramadol   1.346000
+18        NumRx_Morphine   1.242000
+10         NumFills_Mean   1.158000
+9           NumFills_Min   1.042000
+23   NumRx_Buprenorphine   0.359000
+21         NumRx_Codeine   0.328000
+24       NumRx_Methadone   0.129000
+13        NumRx_Fentanyl   0.121000
+22   NumRx_Hydromorphone   0.094000
+19      NumRx_Tapentadol   0.017000
+14      NumRx_Meperidine   0.004000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.749
+18           PainNEC_Ever          0.555
+5         Depression_Ever          0.545
+9               PTSD_Ever          0.390
+6            Anxiety_Ever          0.388
+12          Diabetes_Ever          0.359
+16         Arthritis_Ever          0.344
+22        TobaccoUse_Ever          0.330
+0         AlcoholUse_Ever          0.310
+11           Obesity_Ever          0.285
+13              COPD_Ever          0.276
+15      HeartFailure_Ever          0.153
+1        CannabisUse_Ever          0.127
+21  FamilyDisruption_Ever          0.106
+19    MyofascialPain_Ever          0.092
+7    BipolarDisorder_Ever          0.085
+14            Asthma_Ever          0.079
+23              HepC_Ever          0.051
+10              ADHD_Ever          0.038
+2         CocaineUse_Ever          0.028
+8      Schizophrenia_Ever          0.015
+3       StimulantUse_Ever          0.013
+24               HIV_Ever          0.010
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.001
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.914
+HISPANIC OR LATINO               0.053
+DECLINED TO ANSWER               0.025
+UNKNOWN BY PATIENT               0.008
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.900
+Yes, Screened reports MST                  0.086
+Screened Declines to answer                0.014
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.742
+BLACK OR AFRICAN AMERICAN                           0.188
+DECLINED TO ANSWER                                  0.041
+AMERICAN INDIAN OR ALASKA NATIVE                    0.009
+UNKNOWN BY PATIENT                                  0.008
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.004
+ASIAN                                               0.002
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.445
+Oxycodone               0.265
+Tramadol                0.184
+Codeine                 0.061
+Morphine                0.023
+Hydromorphone           0.009
+Buprenorphine           0.008
+Methadone               0.002
+Fentanyl                0.002
+Meperidine              0.000
+Tapentadol              0.000
+Levorphanol             0.000
+Oxymorphone             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+MARRIED                 0.368
+DIVORCED                0.360
+NEVER MARRIED           0.163
+SEPARATED               0.058
+WIDOWED                 0.045
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.001
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.914
+FEMALE             0.086
+
+------------------------------------------------------------------------------------------
+-------------------- Level 9 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  64.480003
+1              NumVisits  59.162998
+5    TotalDaysSupply_Max  35.929001
+2             TotalNumRx  24.863001
+4   TotalDaysSupply_Mean  23.028999
+8                MME_Max  14.358000
+3    TotalDaysSupply_Min  12.135000
+7               MME_Mean  10.112000
+12       NumRx_Oxycodone   9.543000
+17     NumRx_Hydrocodone   8.284000
+6                MME_Min   7.189000
+18        NumRx_Morphine   3.707000
+11          NumFills_Max   1.463000
+10         NumFills_Mean   1.118000
+20        NumRx_Tramadol   1.090000
+9           NumFills_Min   1.031000
+24       NumRx_Methadone   0.746000
+23   NumRx_Buprenorphine   0.522000
+13        NumRx_Fentanyl   0.357000
+21         NumRx_Codeine   0.296000
+22   NumRx_Hydromorphone   0.249000
+19      NumRx_Tapentadol   0.062000
+16     NumRx_Oxymorphone   0.004000
+14      NumRx_Meperidine   0.003000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.781
+18           PainNEC_Ever          0.642
+5         Depression_Ever          0.596
+6            Anxiety_Ever          0.424
+9               PTSD_Ever          0.412
+22        TobaccoUse_Ever          0.407
+0         AlcoholUse_Ever          0.389
+12          Diabetes_Ever          0.371
+16         Arthritis_Ever          0.360
+13              COPD_Ever          0.335
+11           Obesity_Ever          0.295
+1        CannabisUse_Ever          0.189
+15      HeartFailure_Ever          0.174
+21  FamilyDisruption_Ever          0.122
+7    BipolarDisorder_Ever          0.115
+23              HepC_Ever          0.113
+19    MyofascialPain_Ever          0.100
+2         CocaineUse_Ever          0.099
+14            Asthma_Ever          0.079
+3       StimulantUse_Ever          0.047
+10              ADHD_Ever          0.039
+8      Schizophrenia_Ever          0.021
+24               HIV_Ever          0.013
+20    EatingDisorder_Ever          0.005
+4    HallucinogenUse_Ever          0.002
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.916
+HISPANIC OR LATINO               0.049
+DECLINED TO ANSWER               0.024
+UNKNOWN BY PATIENT               0.010
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.888
+Yes, Screened reports MST                  0.096
+Screened Declines to answer                0.016
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.730
+BLACK OR AFRICAN AMERICAN                           0.199
+DECLINED TO ANSWER                                  0.040
+AMERICAN INDIAN OR ALASKA NATIVE                    0.010
+UNKNOWN BY PATIENT                                  0.010
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.006
+WHITE NOT OF HISP ORIG                              0.003
+ASIAN                                               0.002
+
+IndexType
+               avg_proportion
+IndexType                    
+Hydrocodone             0.381
+Oxycodone               0.325
+Tramadol                0.148
+Morphine                0.062
+Codeine                 0.048
+Hydromorphone           0.012
+Methadone               0.011
+Fentanyl                0.007
+Buprenorphine           0.006
+Tapentadol              0.001
+Meperidine              0.000
+Oxymorphone             0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.380
+MARRIED                 0.345
+NEVER MARRIED           0.160
+SEPARATED               0.067
+WIDOWED                 0.043
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.002
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.924
+FEMALE             0.076
+
+------------------------------------------------------------------------------------------
+-------------------- Level 10 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+1              NumVisits  65.999001
+0                    Age  64.860001
+5    TotalDaysSupply_Max  32.723000
+2             TotalNumRx  28.575001
+4   TotalDaysSupply_Mean  22.323999
+8                MME_Max  21.743999
+7               MME_Mean  13.881000
+3    TotalDaysSupply_Min  11.272000
+12       NumRx_Oxycodone  11.137000
+6                MME_Min   8.227000
+18        NumRx_Morphine   7.235000
+17     NumRx_Hydrocodone   5.473000
+24       NumRx_Methadone   1.849000
+11          NumFills_Max   1.346000
+10         NumFills_Mean   1.077000
+9           NumFills_Min   1.020000
+13        NumRx_Fentanyl   0.879000
+20        NumRx_Tramadol   0.801000
+22   NumRx_Hydromorphone   0.475000
+23   NumRx_Buprenorphine   0.371000
+21         NumRx_Codeine   0.227000
+19      NumRx_Tapentadol   0.109000
+16     NumRx_Oxymorphone   0.016000
+14      NumRx_Meperidine   0.002000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.793
+18           PainNEC_Ever          0.699
+5         Depression_Ever          0.632
+22        TobaccoUse_Ever          0.478
+0         AlcoholUse_Ever          0.454
+6            Anxiety_Ever          0.437
+9               PTSD_Ever          0.422
+12          Diabetes_Ever          0.379
+13              COPD_Ever          0.367
+16         Arthritis_Ever          0.360
+11           Obesity_Ever          0.282
+1        CannabisUse_Ever          0.253
+2         CocaineUse_Ever          0.225
+15      HeartFailure_Ever          0.182
+23              HepC_Ever          0.155
+21  FamilyDisruption_Ever          0.140
+7    BipolarDisorder_Ever          0.138
+3       StimulantUse_Ever          0.134
+19    MyofascialPain_Ever          0.099
+14            Asthma_Ever          0.075
+10              ADHD_Ever          0.035
+8      Schizophrenia_Ever          0.030
+24               HIV_Ever          0.017
+4    HallucinogenUse_Ever          0.006
+20    EatingDisorder_Ever          0.006
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.921
+HISPANIC OR LATINO               0.046
+DECLINED TO ANSWER               0.022
+UNKNOWN BY PATIENT               0.010
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.876
+Yes, Screened reports MST                  0.105
+Screened Declines to answer                0.018
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.703
+BLACK OR AFRICAN AMERICAN                           0.230
+DECLINED TO ANSWER                                  0.039
+AMERICAN INDIAN OR ALASKA NATIVE                    0.010
+UNKNOWN BY PATIENT                                  0.009
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.005
+WHITE NOT OF HISP ORIG                              0.003
+ASIAN                                               0.001
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.348
+Hydrocodone             0.275
+Morphine                0.138
+Tramadol                0.120
+Codeine                 0.043
+Methadone               0.037
+Fentanyl                0.018
+Hydromorphone           0.015
+Buprenorphine           0.003
+Tapentadol              0.002
+Oxymorphone             0.000
+Meperidine              0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.385
+MARRIED                 0.333
+NEVER MARRIED           0.164
+SEPARATED               0.071
+WIDOWED                 0.043
+WIDOW/WIDOWER           0.003
+UNKNOWN                 0.001
+*Missing*               0.000
+SINGLE                  0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.932
+FEMALE             0.068
+
+------------------------------------------------------------------------------------------
+-------------------- Level 11 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  63.931000
+1              NumVisits  59.230999
+5    TotalDaysSupply_Max  30.247999
+8                MME_Max  24.753000
+2             TotalNumRx  23.271999
+4   TotalDaysSupply_Mean  21.302000
+7               MME_Mean  15.628000
+3    TotalDaysSupply_Min  10.606000
+12       NumRx_Oxycodone   9.328000
+6                MME_Min   9.002000
+18        NumRx_Morphine   6.051000
+17     NumRx_Hydrocodone   3.621000
+24       NumRx_Methadone   2.021000
+11          NumFills_Max   1.299000
+10         NumFills_Mean   1.075000
+9           NumFills_Min   1.021000
+13        NumRx_Fentanyl   0.698000
+20        NumRx_Tramadol   0.697000
+22   NumRx_Hydromorphone   0.410000
+23   NumRx_Buprenorphine   0.186000
+21         NumRx_Codeine   0.165000
+19      NumRx_Tapentadol   0.087000
+16     NumRx_Oxymorphone   0.006000
+14      NumRx_Meperidine   0.002000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+17   ChronicBackPain_Ever          0.763
+18           PainNEC_Ever          0.710
+5         Depression_Ever          0.690
+0         AlcoholUse_Ever          0.555
+22        TobaccoUse_Ever          0.546
+6            Anxiety_Ever          0.483
+9               PTSD_Ever          0.452
+13              COPD_Ever          0.376
+2         CocaineUse_Ever          0.372
+1        CannabisUse_Ever          0.353
+12          Diabetes_Ever          0.353
+16         Arthritis_Ever          0.304
+3       StimulantUse_Ever          0.267
+23              HepC_Ever          0.257
+11           Obesity_Ever          0.220
+7    BipolarDisorder_Ever          0.190
+15      HeartFailure_Ever          0.177
+21  FamilyDisruption_Ever          0.136
+19    MyofascialPain_Ever          0.083
+14            Asthma_Ever          0.060
+8      Schizophrenia_Ever          0.046
+10              ADHD_Ever          0.039
+24               HIV_Ever          0.024
+4    HallucinogenUse_Ever          0.012
+20    EatingDisorder_Ever          0.004
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.929
+HISPANIC OR LATINO               0.041
+DECLINED TO ANSWER               0.021
+UNKNOWN BY PATIENT               0.009
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.849
+Yes, Screened reports MST                  0.126
+Screened Declines to answer                0.024
+Unknown, not screened                      0.001
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.686
+BLACK OR AFRICAN AMERICAN                           0.260
+DECLINED TO ANSWER                                  0.033
+AMERICAN INDIAN OR ALASKA NATIVE                    0.008
+UNKNOWN BY PATIENT                                  0.006
+WHITE NOT OF HISP ORIG                              0.004
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.003
+ASIAN                                               0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.345
+Hydrocodone             0.243
+Morphine                0.151
+Tramadol                0.130
+Methadone               0.058
+Codeine                 0.039
+Hydromorphone           0.016
+Fentanyl                0.012
+Buprenorphine           0.003
+Tapentadol              0.001
+Meperidine              0.000
+Oxymorphone             0.000
+Levorphanol             0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.434
+MARRIED                 0.243
+NEVER MARRIED           0.188
+SEPARATED               0.084
+WIDOWED                 0.046
+WIDOW/WIDOWER           0.002
+UNKNOWN                 0.001
+SINGLE                  0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.949
+FEMALE             0.051
+
+------------------------------------------------------------------------------------------
+-------------------- Level 12 | NEGATIVES
+------------------------------------------------------------------------------------------
+
+Numeric summary:
+                 Feature       mean
+0                    Age  62.192001
+1              NumVisits  51.997002
+5    TotalDaysSupply_Max  26.950001
+8                MME_Max  21.271999
+4   TotalDaysSupply_Mean  19.059000
+2             TotalNumRx  15.663000
+7               MME_Mean  13.777000
+3    TotalDaysSupply_Min   9.933000
+6                MME_Min   8.397000
+12       NumRx_Oxycodone   6.940000
+18        NumRx_Morphine   3.139000
+17     NumRx_Hydrocodone   2.307000
+24       NumRx_Methadone   1.621000
+11          NumFills_Max   1.265000
+10         NumFills_Mean   1.082000
+9           NumFills_Min   1.036000
+20        NumRx_Tramadol   0.726000
+22   NumRx_Hydromorphone   0.415000
+13        NumRx_Fentanyl   0.305000
+23   NumRx_Buprenorphine   0.107000
+21         NumRx_Codeine   0.097000
+19      NumRx_Tapentadol   0.005000
+14      NumRx_Meperidine   0.002000
+16     NumRx_Oxymorphone   0.000000
+15     NumRx_Levorphanol   0.000000
+
+Binary summary:
+                  Feature  proportion_1s
+5         Depression_Ever          0.795
+0         AlcoholUse_Ever          0.769
+22        TobaccoUse_Ever          0.729
+18           PainNEC_Ever          0.706
+17   ChronicBackPain_Ever          0.698
+2         CocaineUse_Ever          0.659
+1        CannabisUse_Ever          0.553
+3       StimulantUse_Ever          0.544
+6            Anxiety_Ever          0.543
+9               PTSD_Ever          0.507
+23              HepC_Ever          0.471
+13              COPD_Ever          0.372
+7    BipolarDisorder_Ever          0.322
+12          Diabetes_Ever          0.262
+16         Arthritis_Ever          0.204
+21  FamilyDisruption_Ever          0.144
+11           Obesity_Ever          0.144
+15      HeartFailure_Ever          0.126
+8      Schizophrenia_Ever          0.070
+10              ADHD_Ever          0.055
+19    MyofascialPain_Ever          0.047
+24               HIV_Ever          0.033
+14            Asthma_Ever          0.029
+4    HallucinogenUse_Ever          0.020
+20    EatingDisorder_Ever          0.004
+
+Categorical summary
+
+Ethnicity
+                        avg_proportion
+Ethnicity                             
+NOT HISPANIC OR LATINO           0.956
+HISPANIC OR LATINO               0.029
+DECLINED TO ANSWER               0.010
+UNKNOWN BY PATIENT               0.005
+
+MilitarySexualTrauma
+                                  avg_proportion
+MilitarySexualTrauma                            
+No, Screened does not report MST           0.759
+Yes, Screened reports MST                  0.203
+Screened Declines to answer                0.038
+Unknown, not screened                      0.000
+
+Race
+                                           avg_proportion
+Race                                                     
+WHITE                                               0.706
+BLACK OR AFRICAN AMERICAN                           0.267
+DECLINED TO ANSWER                                  0.020
+AMERICAN INDIAN OR ALASKA NATIVE                    0.006
+WHITE NOT OF HISP ORIG                              0.001
+ASIAN                                               0.000
+NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER           0.000
+UNKNOWN BY PATIENT                                  0.000
+
+IndexType
+               avg_proportion
+IndexType                    
+Oxycodone               0.354
+Hydrocodone             0.234
+Tramadol                0.197
+Morphine                0.105
+Methadone               0.056
+Codeine                 0.025
+Hydromorphone           0.022
+Fentanyl                0.005
+Buprenorphine           0.002
+Levorphanol             0.000
+Meperidine              0.000
+Oxymorphone             0.000
+Tapentadol              0.000
+
+MaritalStatus
+               avg_proportion
+MaritalStatus                
+DIVORCED                0.527
+NEVER MARRIED           0.236
+SEPARATED               0.104
+MARRIED                 0.103
+WIDOWED                 0.029
+WIDOW/WIDOWER           0.001
+*Missing*               0.000
+COMMON-LAW              0.000
+UNKNOWN                 0.000
+SINGLE                  0.000
+
+BirthSex
+          avg_proportion
+BirthSex                
+MALE               0.967
+FEMALE             0.033
+Job finished on Mon Jun  8 12:34:49 PM EDT 2026

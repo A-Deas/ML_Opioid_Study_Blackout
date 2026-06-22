@@ -1,0 +1,569 @@
+Job started on Mon Jun  8 11:47:18 AM EDT 2026
+
+Loading data from DuckDB...
+Loaded 1,760,052 patients.
+Feature matrix: 1,760,052 rows x 56 columns
+Raw  imbalance: 16,388 positives and 1,743,664 negatives => 0.931%
+Fold imbalance: 16,388 positives and 145,306 negatives => 10.135%
+
+----------------- Fold 1/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24255, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3071 | Bal acc = 0.6087 | Prec = 0.1264 | Recall = 0.9870 | F1 = 0.2240 | F-Beta = 0.4178 | AUC ROC = 0.8542 | AUC PR = 0.4333
+
+Best threshold on validation: 0.91 (F-Beta = 0.5727)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7776 | Bal acc = 0.7736 | Prec = 0.2813 | Recall = 0.7685 | F1 = 0.4119 | F-Beta = 0.5708 | AUC ROC = 0.8542 | AUC PR = 0.4333
+
+Feature Importances:
+CocaineUse_Ever         0.1001
+AlcoholUse_Ever         0.0812
+StimulantUse_Ever       0.0651
+MME_Max                 0.0614
+HepC_Ever               0.0579
+CannabisUse_Ever        0.0425
+Obesity_Ever            0.0323
+TobaccoUse_Ever         0.0313
+BipolarDisorder_Ever    0.0302
+MaritalStatus           0.0269
+TotalNumRx              0.0251
+PainNEC_Ever            0.0231
+Arthritis_Ever          0.0201
+BirthSex                0.0177
+Depression_Ever         0.0177
+TotalDaysSupply_Max     0.0177
+MME_Mean                0.0156
+Age                     0.0147
+IndexType               0.0145
+COPD_Ever               0.0143
+NumRx_Oxycodone         0.0137
+NumVisits               0.0129
+NumRx_Hydrocodone       0.0127
+MilitarySexualTrauma    0.0123
+PTSD_Ever               0.0122
+EatingDisorder_Ever     0.0117
+TotalDaysSupply_Mean    0.0116
+Schizophrenia_Ever      0.0113
+Race                    0.0110
+NumRx_Tramadol          0.0109
+dtype: float32
+
+----------------- Fold 2/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24255, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3081 | Bal acc = 0.6071 | Prec = 0.1261 | Recall = 0.9821 | F1 = 0.2234 | F-Beta = 0.4165 | AUC ROC = 0.8517 | AUC PR = 0.4282
+
+Best threshold on validation: 0.92 (F-Beta = 0.5672)
+[Test (threshold tuned via F-Beta)] | Acc = 0.8026 | Bal acc = 0.7739 | Prec = 0.3045 | Recall = 0.7380 | F1 = 0.4311 | F-Beta = 0.5744 | AUC ROC = 0.8517 | AUC PR = 0.4282
+
+Feature Importances:
+CocaineUse_Ever         0.0917
+AlcoholUse_Ever         0.0867
+MME_Max                 0.0628
+StimulantUse_Ever       0.0585
+HepC_Ever               0.0508
+CannabisUse_Ever        0.0402
+TobaccoUse_Ever         0.0354
+Obesity_Ever            0.0348
+MaritalStatus           0.0307
+BipolarDisorder_Ever    0.0282
+TotalNumRx              0.0262
+Arthritis_Ever          0.0233
+PainNEC_Ever            0.0224
+BirthSex                0.0198
+Depression_Ever         0.0192
+TotalDaysSupply_Max     0.0181
+Age                     0.0161
+MilitarySexualTrauma    0.0155
+MME_Mean                0.0148
+NumRx_Oxycodone         0.0141
+EatingDisorder_Ever     0.0140
+COPD_Ever               0.0137
+IndexType               0.0134
+NumRx_Hydrocodone       0.0125
+NumVisits               0.0118
+TotalDaysSupply_Mean    0.0117
+Diabetes_Ever           0.0110
+NumRx_Morphine          0.0110
+Race                    0.0108
+PTSD_Ever               0.0105
+dtype: float32
+
+----------------- Fold 3/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24255, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3081 | Bal acc = 0.6067 | Prec = 0.1260 | Recall = 0.9813 | F1 = 0.2233 | F-Beta = 0.4161 | AUC ROC = 0.8479 | AUC PR = 0.4206
+
+Best threshold on validation: 0.90 (F-Beta = 0.5816)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7659 | Bal acc = 0.7712 | Prec = 0.2715 | Recall = 0.7779 | F1 = 0.4025 | F-Beta = 0.5665 | AUC ROC = 0.8479 | AUC PR = 0.4206
+
+Feature Importances:
+CocaineUse_Ever         0.0948
+AlcoholUse_Ever         0.0830
+MME_Max                 0.0689
+StimulantUse_Ever       0.0559
+HepC_Ever               0.0532
+CannabisUse_Ever        0.0443
+Obesity_Ever            0.0394
+TobaccoUse_Ever         0.0310
+BipolarDisorder_Ever    0.0303
+MaritalStatus           0.0294
+TotalNumRx              0.0254
+Arthritis_Ever          0.0234
+Depression_Ever         0.0220
+PainNEC_Ever            0.0214
+TotalDaysSupply_Max     0.0190
+BirthSex                0.0180
+Age                     0.0173
+MME_Mean                0.0150
+NumRx_Oxycodone         0.0138
+NumRx_Hydrocodone       0.0136
+NumVisits               0.0133
+MilitarySexualTrauma    0.0131
+IndexType               0.0130
+COPD_Ever               0.0125
+Schizophrenia_Ever      0.0116
+TotalDaysSupply_Mean    0.0115
+NumRx_Morphine          0.0105
+NumRx_Tramadol          0.0104
+Race                    0.0102
+NumFills_Max            0.0099
+dtype: float32
+
+----------------- Fold 4/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24255, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.2912 | Bal acc = 0.5988 | Prec = 0.1236 | Recall = 0.9845 | F1 = 0.2197 | F-Beta = 0.4115 | AUC ROC = 0.8464 | AUC PR = 0.4153
+
+Best threshold on validation: 0.92 (F-Beta = 0.5898)
+[Test (threshold tuned via F-Beta)] | Acc = 0.8000 | Bal acc = 0.7669 | Prec = 0.2992 | Recall = 0.7254 | F1 = 0.4236 | F-Beta = 0.5645 | AUC ROC = 0.8464 | AUC PR = 0.4153
+
+Feature Importances:
+CocaineUse_Ever         0.0944
+AlcoholUse_Ever         0.0903
+MME_Max                 0.0701
+StimulantUse_Ever       0.0623
+HepC_Ever               0.0609
+CannabisUse_Ever        0.0427
+Obesity_Ever            0.0309
+TobaccoUse_Ever         0.0286
+BipolarDisorder_Ever    0.0275
+MaritalStatus           0.0261
+TotalNumRx              0.0258
+PainNEC_Ever            0.0226
+Arthritis_Ever          0.0220
+TotalDaysSupply_Max     0.0185
+Depression_Ever         0.0184
+BirthSex                0.0183
+MME_Mean                0.0168
+COPD_Ever               0.0167
+Age                     0.0164
+MilitarySexualTrauma    0.0144
+IndexType               0.0133
+NumRx_Oxycodone         0.0130
+NumVisits               0.0128
+NumRx_Hydrocodone       0.0128
+TotalDaysSupply_Mean    0.0114
+Asthma_Ever             0.0113
+Schizophrenia_Ever      0.0111
+NumRx_Morphine          0.0110
+NumRx_Tramadol          0.0108
+HeartFailure_Ever       0.0103
+dtype: float32
+
+----------------- Fold 5/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3091 | Bal acc = 0.6071 | Prec = 0.1261 | Recall = 0.9809 | F1 = 0.2235 | F-Beta = 0.4164 | AUC ROC = 0.8442 | AUC PR = 0.4177
+
+Best threshold on validation: 0.92 (F-Beta = 0.5790)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7955 | Bal acc = 0.7639 | Prec = 0.2937 | Recall = 0.7242 | F1 = 0.4179 | F-Beta = 0.5600 | AUC ROC = 0.8442 | AUC PR = 0.4177
+
+Feature Importances:
+CocaineUse_Ever         0.0954
+AlcoholUse_Ever         0.0792
+MME_Max                 0.0604
+HepC_Ever               0.0582
+StimulantUse_Ever       0.0557
+CannabisUse_Ever        0.0382
+Obesity_Ever            0.0367
+BipolarDisorder_Ever    0.0300
+TobaccoUse_Ever         0.0283
+Arthritis_Ever          0.0252
+MaritalStatus           0.0239
+PainNEC_Ever            0.0233
+TotalNumRx              0.0228
+Depression_Ever         0.0207
+TotalDaysSupply_Max     0.0187
+MME_Mean                0.0182
+BirthSex                0.0161
+COPD_Ever               0.0161
+Age                     0.0158
+Schizophrenia_Ever      0.0155
+NumRx_Oxycodone         0.0138
+MilitarySexualTrauma    0.0135
+IndexType               0.0133
+NumVisits               0.0130
+TotalDaysSupply_Mean    0.0126
+NumRx_Hydrocodone       0.0123
+NumRx_Tramadol          0.0119
+Race                    0.0108
+NumRx_Meperidine        0.0108
+HeartFailure_Ever       0.0105
+dtype: float32
+
+----------------- Fold 6/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.2946 | Bal acc = 0.6016 | Prec = 0.1244 | Recall = 0.9866 | F1 = 0.2209 | F-Beta = 0.4134 | AUC ROC = 0.8520 | AUC PR = 0.4347
+
+Best threshold on validation: 0.92 (F-Beta = 0.5756)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7949 | Bal acc = 0.7763 | Prec = 0.2976 | Recall = 0.7531 | F1 = 0.4266 | F-Beta = 0.5766 | AUC ROC = 0.8520 | AUC PR = 0.4347
+
+Feature Importances:
+CocaineUse_Ever         0.0931
+AlcoholUse_Ever         0.0821
+MME_Max                 0.0615
+StimulantUse_Ever       0.0593
+HepC_Ever               0.0559
+CannabisUse_Ever        0.0452
+Obesity_Ever            0.0358
+BipolarDisorder_Ever    0.0304
+TobaccoUse_Ever         0.0291
+MaritalStatus           0.0286
+PainNEC_Ever            0.0263
+TotalNumRx              0.0255
+Arthritis_Ever          0.0228
+BirthSex                0.0194
+TotalDaysSupply_Max     0.0178
+Depression_Ever         0.0178
+MilitarySexualTrauma    0.0157
+Age                     0.0157
+MME_Mean                0.0156
+Schizophrenia_Ever      0.0146
+IndexType               0.0146
+COPD_Ever               0.0142
+NumVisits               0.0140
+NumRx_Oxycodone         0.0137
+NumRx_Hydrocodone       0.0131
+NumRx_Tramadol          0.0127
+TotalDaysSupply_Mean    0.0119
+Race                    0.0116
+Asthma_Ever             0.0112
+NumRx_Morphine          0.0108
+dtype: float32
+
+----------------- Fold 7/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3155 | Bal acc = 0.6127 | Prec = 0.1276 | Recall = 0.9854 | F1 = 0.2259 | F-Beta = 0.4202 | AUC ROC = 0.8506 | AUC PR = 0.4168
+
+Best threshold on validation: 0.91 (F-Beta = 0.5868)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7891 | Bal acc = 0.7746 | Prec = 0.2917 | Recall = 0.7563 | F1 = 0.4210 | F-Beta = 0.5736 | AUC ROC = 0.8506 | AUC PR = 0.4168
+
+Feature Importances:
+CocaineUse_Ever         0.0913
+AlcoholUse_Ever         0.0805
+MME_Max                 0.0575
+StimulantUse_Ever       0.0575
+HepC_Ever               0.0545
+CannabisUse_Ever        0.0453
+Obesity_Ever            0.0340
+TobaccoUse_Ever         0.0304
+BipolarDisorder_Ever    0.0262
+TotalNumRx              0.0254
+PainNEC_Ever            0.0253
+MaritalStatus           0.0252
+Arthritis_Ever          0.0200
+Depression_Ever         0.0181
+BirthSex                0.0179
+Age                     0.0170
+TotalDaysSupply_Max     0.0168
+MilitarySexualTrauma    0.0162
+MME_Mean                0.0162
+NumRx_Oxycodone         0.0141
+IndexType               0.0136
+COPD_Ever               0.0134
+NumVisits               0.0132
+NumRx_Hydrocodone       0.0128
+Asthma_Ever             0.0126
+TotalDaysSupply_Mean    0.0122
+NumRx_Tramadol          0.0118
+Race                    0.0117
+NumRx_Morphine          0.0116
+EatingDisorder_Ever     0.0114
+dtype: float32
+
+----------------- Fold 8/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.2970 | Bal acc = 0.6024 | Prec = 0.1246 | Recall = 0.9854 | F1 = 0.2212 | F-Beta = 0.4137 | AUC ROC = 0.8495 | AUC PR = 0.4242
+
+Best threshold on validation: 0.92 (F-Beta = 0.5816)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7969 | Bal acc = 0.7751 | Prec = 0.2992 | Recall = 0.7478 | F1 = 0.4273 | F-Beta = 0.5752 | AUC ROC = 0.8495 | AUC PR = 0.4242
+
+Feature Importances:
+CocaineUse_Ever         0.0896
+AlcoholUse_Ever         0.0842
+MME_Max                 0.0607
+StimulantUse_Ever       0.0600
+HepC_Ever               0.0548
+CannabisUse_Ever        0.0452
+Obesity_Ever            0.0364
+BipolarDisorder_Ever    0.0323
+MaritalStatus           0.0284
+TobaccoUse_Ever         0.0269
+TotalNumRx              0.0232
+PainNEC_Ever            0.0212
+Arthritis_Ever          0.0205
+Depression_Ever         0.0189
+TotalDaysSupply_Max     0.0174
+BirthSex                0.0161
+Age                     0.0158
+MME_Mean                0.0154
+NumRx_Oxycodone         0.0139
+COPD_Ever               0.0138
+IndexType               0.0137
+EatingDisorder_Ever     0.0132
+MilitarySexualTrauma    0.0130
+Schizophrenia_Ever      0.0126
+NumVisits               0.0124
+TotalDaysSupply_Mean    0.0123
+NumRx_Hydrocodone       0.0123
+NumRx_Tramadol          0.0111
+PTSD_Ever               0.0106
+Race                    0.0106
+dtype: float32
+
+----------------- Fold 9/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.2809 | Bal acc = 0.5943 | Prec = 0.1223 | Recall = 0.9874 | F1 = 0.2177 | F-Beta = 0.4090 | AUC ROC = 0.8509 | AUC PR = 0.4406
+
+Best threshold on validation: 0.91 (F-Beta = 0.5780)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7808 | Bal acc = 0.7780 | Prec = 0.2856 | Recall = 0.7746 | F1 = 0.4173 | F-Beta = 0.5770 | AUC ROC = 0.8509 | AUC PR = 0.4406
+
+Feature Importances:
+AlcoholUse_Ever         0.0968
+CocaineUse_Ever         0.0948
+MME_Max                 0.0689
+StimulantUse_Ever       0.0610
+HepC_Ever               0.0530
+CannabisUse_Ever        0.0407
+Obesity_Ever            0.0384
+BipolarDisorder_Ever    0.0307
+TobaccoUse_Ever         0.0287
+MaritalStatus           0.0286
+TotalNumRx              0.0251
+Arthritis_Ever          0.0224
+PainNEC_Ever            0.0222
+TotalDaysSupply_Max     0.0176
+Age                     0.0173
+MME_Mean                0.0162
+Depression_Ever         0.0157
+BirthSex                0.0153
+COPD_Ever               0.0141
+NumRx_Oxycodone         0.0134
+NumVisits               0.0128
+IndexType               0.0128
+TotalDaysSupply_Mean    0.0123
+MilitarySexualTrauma    0.0122
+NumRx_Hydrocodone       0.0122
+NumRx_Tramadol          0.0120
+EatingDisorder_Ever     0.0115
+Asthma_Ever             0.0105
+Race                    0.0102
+Schizophrenia_Ever      0.0098
+dtype: float32
+
+----------------- Fold 10/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3058 | Bal acc = 0.6072 | Prec = 0.1260 | Recall = 0.9854 | F1 = 0.2234 | F-Beta = 0.4168 | AUC ROC = 0.8526 | AUC PR = 0.4098
+
+Best threshold on validation: 0.92 (F-Beta = 0.5785)
+[Test (threshold tuned via F-Beta)] | Acc = 0.8044 | Bal acc = 0.7726 | Prec = 0.3059 | Recall = 0.7327 | F1 = 0.4316 | F-Beta = 0.5729 | AUC ROC = 0.8526 | AUC PR = 0.4098
+
+Feature Importances:
+CocaineUse_Ever         0.0875
+AlcoholUse_Ever         0.0780
+StimulantUse_Ever       0.0677
+MME_Max                 0.0579
+HepC_Ever               0.0546
+CannabisUse_Ever        0.0461
+Obesity_Ever            0.0330
+BipolarDisorder_Ever    0.0277
+TotalNumRx              0.0272
+TobaccoUse_Ever         0.0271
+MaritalStatus           0.0256
+Arthritis_Ever          0.0254
+PainNEC_Ever            0.0233
+TotalDaysSupply_Max     0.0199
+Depression_Ever         0.0193
+BirthSex                0.0181
+COPD_Ever               0.0166
+MME_Mean                0.0163
+Age                     0.0160
+MilitarySexualTrauma    0.0150
+EatingDisorder_Ever     0.0148
+IndexType               0.0142
+NumRx_Oxycodone         0.0141
+NumRx_Hydrocodone       0.0132
+NumVisits               0.0131
+Schizophrenia_Ever      0.0119
+TotalDaysSupply_Mean    0.0117
+NumRx_Tramadol          0.0114
+Race                    0.0107
+Asthma_Ever             0.0105
+dtype: float32
+
+----------------- Fold 11/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3049 | Bal acc = 0.6069 | Prec = 0.1259 | Recall = 0.9858 | F1 = 0.2233 | F-Beta = 0.4166 | AUC ROC = 0.8498 | AUC PR = 0.4316
+
+Best threshold on validation: 0.91 (F-Beta = 0.5769)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7761 | Bal acc = 0.7713 | Prec = 0.2793 | Recall = 0.7653 | F1 = 0.4092 | F-Beta = 0.5677 | AUC ROC = 0.8498 | AUC PR = 0.4316
+
+Feature Importances:
+CocaineUse_Ever         0.0967
+AlcoholUse_Ever         0.0848
+HepC_Ever               0.0628
+MME_Max                 0.0610
+StimulantUse_Ever       0.0590
+CannabisUse_Ever        0.0400
+Obesity_Ever            0.0370
+TobaccoUse_Ever         0.0295
+BipolarDisorder_Ever    0.0271
+MaritalStatus           0.0253
+TotalNumRx              0.0245
+Arthritis_Ever          0.0241
+PainNEC_Ever            0.0223
+Depression_Ever         0.0199
+TotalDaysSupply_Max     0.0183
+BirthSex                0.0169
+Age                     0.0158
+MilitarySexualTrauma    0.0150
+MME_Mean                0.0148
+COPD_Ever               0.0146
+IndexType               0.0140
+NumRx_Oxycodone         0.0132
+NumVisits               0.0130
+NumRx_Hydrocodone       0.0117
+NumRx_Tramadol          0.0115
+TotalDaysSupply_Mean    0.0111
+EatingDisorder_Ever     0.0109
+NumRx_Morphine          0.0108
+Schizophrenia_Ever      0.0103
+Race                    0.0101
+dtype: float32
+
+----------------- Fold 12/12 -----------------
+
+Data shapes: train = (113185, 56) | validation = (24254, 56) | test = (24254, 56)
+
+Evaluation without threshold testing: 
+[Test] | Acc = 0.3300 | Bal acc = 0.6171 | Prec = 0.1292 | Recall = 0.9772 | F1 = 0.2282 | F-Beta = 0.4225 | AUC ROC = 0.8498 | AUC PR = 0.4279
+
+Best threshold on validation: 0.91 (F-Beta = 0.5866)
+[Test (threshold tuned via F-Beta)] | Acc = 0.7894 | Bal acc = 0.7733 | Prec = 0.2915 | Recall = 0.7531 | F1 = 0.4203 | F-Beta = 0.5719 | AUC ROC = 0.8498 | AUC PR = 0.4279
+
+Feature Importances:
+CocaineUse_Ever         0.0987
+AlcoholUse_Ever         0.0735
+StimulantUse_Ever       0.0690
+HepC_Ever               0.0634
+MME_Max                 0.0578
+CannabisUse_Ever        0.0368
+Obesity_Ever            0.0351
+TobaccoUse_Ever         0.0290
+BipolarDisorder_Ever    0.0252
+TotalNumRx              0.0251
+MaritalStatus           0.0238
+PainNEC_Ever            0.0228
+Arthritis_Ever          0.0220
+Depression_Ever         0.0199
+TotalDaysSupply_Max     0.0172
+Age                     0.0158
+Schizophrenia_Ever      0.0156
+BirthSex                0.0153
+COPD_Ever               0.0148
+MME_Mean                0.0145
+NumRx_Oxycodone         0.0140
+MilitarySexualTrauma    0.0138
+NumRx_Hydrocodone       0.0128
+NumVisits               0.0125
+IndexType               0.0125
+EatingDisorder_Ever     0.0120
+NumRx_Tramadol          0.0113
+Race                    0.0113
+TotalDaysSupply_Mean    0.0111
+NumFills_Min            0.0109
+dtype: float32
+
+----------------- Average performance across all 12 folds -----------------
+Fold                 6.500000
+Accuracy             0.789440
+Balanced accuracy    0.772560
+Precision            0.291732
+Recall               0.751390
+F1                   0.420027
+F-Beta               0.570926
+AUC_ROC              0.849968
+AUC_PR               0.425052
+dtype: float64
+
+---------- Average feature importance across all 12 folds ----------
+CocaineUse_Ever         0.0940
+AlcoholUse_Ever         0.0834
+MME_Max                 0.0624
+StimulantUse_Ever       0.0609
+HepC_Ever               0.0567
+CannabisUse_Ever        0.0423
+Obesity_Ever            0.0353
+TobaccoUse_Ever         0.0296
+BipolarDisorder_Ever    0.0288
+MaritalStatus           0.0269
+TotalNumRx              0.0251
+PainNEC_Ever            0.0230
+Arthritis_Ever          0.0226
+Depression_Ever         0.0190
+TotalDaysSupply_Max     0.0181
+BirthSex                0.0174
+Age                     0.0161
+MME_Mean                0.0158
+COPD_Ever               0.0146
+MilitarySexualTrauma    0.0141
+NumRx_Oxycodone         0.0137
+IndexType               0.0136
+NumVisits               0.0129
+NumRx_Hydrocodone       0.0127
+Schizophrenia_Ever      0.0118
+TotalDaysSupply_Mean    0.0118
+EatingDisorder_Ever     0.0114
+NumRx_Tramadol          0.0113
+Race                    0.0108
+NumRx_Morphine          0.0103
+Name: mean_importance, dtype: float64
+Job finished on Mon Jun  8 11:48:14 AM EDT 2026

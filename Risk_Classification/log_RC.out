@@ -1,0 +1,265 @@
+Job started on Mon Jun  8 12:16:05 PM EDT 2026
+
+Loading data from DuckDB...
+Loaded 1,794,921 patients.
+Feature matrix: 1,794,921 rows x 56 columns
+
+----------------- Fold 1/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,373 | num_pos = 4 | pct_pos = 0.001686 | avg_pred_prob = 0.257
+Level 2: total_patients = 2,529 | num_pos = 18 | pct_pos = 0.007117 | avg_pred_prob = 0.425
+Level 3: total_patients = 2,570 | num_pos = 25 | pct_pos = 0.009728 | avg_pred_prob = 0.548
+Level 4: total_patients = 2,464 | num_pos = 43 | pct_pos = 0.017451 | avg_pred_prob = 0.649
+Level 5: total_patients = 2,490 | num_pos = 67 | pct_pos = 0.026908 | avg_pred_prob = 0.734
+Level 6: total_patients = 2,526 | num_pos = 102 | pct_pos = 0.040380 | avg_pred_prob = 0.809
+Level 7: total_patients = 2,472 | num_pos = 157 | pct_pos = 0.063511 | avg_pred_prob = 0.870
+Level 8: total_patients = 2,393 | num_pos = 298 | pct_pos = 0.124530 | avg_pred_prob = 0.919
+Level 9: total_patients = 2,479 | num_pos = 599 | pct_pos = 0.241630 | avg_pred_prob = 0.958
+Level 10: total_patients = 1,265 | num_pos = 515 | pct_pos = 0.407115 | avg_pred_prob = 0.980
+Level 11: total_patients = 1,036 | num_pos = 603 | pct_pos = 0.582046 | avg_pred_prob = 0.989
+Level 12: total_patients = 207 | num_pos = 151 | pct_pos = 0.729469 | avg_pred_prob = 0.995
+
+----------------- Fold 2/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.70, t5 = 0.78, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,511 | num_pos = 5 | pct_pos = 0.001991 | avg_pred_prob = 0.258
+Level 2: total_patients = 2,477 | num_pos = 14 | pct_pos = 0.005652 | avg_pred_prob = 0.425
+Level 3: total_patients = 2,521 | num_pos = 25 | pct_pos = 0.009917 | avg_pred_prob = 0.549
+Level 4: total_patients = 2,513 | num_pos = 57 | pct_pos = 0.022682 | avg_pred_prob = 0.652
+Level 5: total_patients = 2,466 | num_pos = 60 | pct_pos = 0.024331 | avg_pred_prob = 0.739
+Level 6: total_patients = 2,497 | num_pos = 114 | pct_pos = 0.045655 | avg_pred_prob = 0.813
+Level 7: total_patients = 2,471 | num_pos = 164 | pct_pos = 0.066370 | avg_pred_prob = 0.872
+Level 8: total_patients = 2,511 | num_pos = 311 | pct_pos = 0.123855 | avg_pred_prob = 0.920
+Level 9: total_patients = 2,426 | num_pos = 635 | pct_pos = 0.261748 | avg_pred_prob = 0.959
+Level 10: total_patients = 1,246 | num_pos = 491 | pct_pos = 0.394061 | avg_pred_prob = 0.980
+Level 11: total_patients = 980 | num_pos = 572 | pct_pos = 0.583673 | avg_pred_prob = 0.989
+Level 12: total_patients = 185 | num_pos = 134 | pct_pos = 0.724324 | avg_pred_prob = 0.995
+
+----------------- Fold 3/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,369 | num_pos = 10 | pct_pos = 0.004221 | avg_pred_prob = 0.255
+Level 2: total_patients = 2,572 | num_pos = 8 | pct_pos = 0.003110 | avg_pred_prob = 0.420
+Level 3: total_patients = 2,455 | num_pos = 19 | pct_pos = 0.007739 | avg_pred_prob = 0.543
+Level 4: total_patients = 2,417 | num_pos = 42 | pct_pos = 0.017377 | avg_pred_prob = 0.647
+Level 5: total_patients = 2,510 | num_pos = 55 | pct_pos = 0.021912 | avg_pred_prob = 0.737
+Level 6: total_patients = 2,568 | num_pos = 122 | pct_pos = 0.047508 | avg_pred_prob = 0.811
+Level 7: total_patients = 2,486 | num_pos = 176 | pct_pos = 0.070796 | avg_pred_prob = 0.872
+Level 8: total_patients = 2,518 | num_pos = 304 | pct_pos = 0.120731 | avg_pred_prob = 0.920
+Level 9: total_patients = 2,462 | num_pos = 639 | pct_pos = 0.259545 | avg_pred_prob = 0.958
+Level 10: total_patients = 1,303 | num_pos = 542 | pct_pos = 0.415963 | avg_pred_prob = 0.980
+Level 11: total_patients = 924 | num_pos = 504 | pct_pos = 0.545455 | avg_pred_prob = 0.989
+Level 12: total_patients = 220 | num_pos = 161 | pct_pos = 0.731818 | avg_pred_prob = 0.995
+
+----------------- Fold 4/12 -----------------
+
+t1 = 0.38, t2 = 0.51, t3 = 0.61, t4 = 0.70, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,358 | num_pos = 5 | pct_pos = 0.002120 | avg_pred_prob = 0.283
+Level 2: total_patients = 2,390 | num_pos = 7 | pct_pos = 0.002929 | avg_pred_prob = 0.446
+Level 3: total_patients = 2,479 | num_pos = 24 | pct_pos = 0.009681 | avg_pred_prob = 0.561
+Level 4: total_patients = 2,489 | num_pos = 48 | pct_pos = 0.019285 | avg_pred_prob = 0.660
+Level 5: total_patients = 2,497 | num_pos = 49 | pct_pos = 0.019624 | avg_pred_prob = 0.745
+Level 6: total_patients = 2,477 | num_pos = 106 | pct_pos = 0.042794 | avg_pred_prob = 0.813
+Level 7: total_patients = 2,534 | num_pos = 185 | pct_pos = 0.073007 | avg_pred_prob = 0.873
+Level 8: total_patients = 2,535 | num_pos = 319 | pct_pos = 0.125838 | avg_pred_prob = 0.921
+Level 9: total_patients = 2,533 | num_pos = 605 | pct_pos = 0.238847 | avg_pred_prob = 0.958
+Level 10: total_patients = 1,340 | num_pos = 545 | pct_pos = 0.406716 | avg_pred_prob = 0.979
+Level 11: total_patients = 964 | num_pos = 531 | pct_pos = 0.550830 | avg_pred_prob = 0.988
+Level 12: total_patients = 208 | num_pos = 158 | pct_pos = 0.759615 | avg_pred_prob = 0.994
+
+----------------- Fold 5/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.70, t5 = 0.78, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,426 | num_pos = 2 | pct_pos = 0.000824 | avg_pred_prob = 0.248
+Level 2: total_patients = 2,504 | num_pos = 13 | pct_pos = 0.005192 | avg_pred_prob = 0.419
+Level 3: total_patients = 2,577 | num_pos = 23 | pct_pos = 0.008925 | avg_pred_prob = 0.546
+Level 4: total_patients = 2,475 | num_pos = 52 | pct_pos = 0.021010 | avg_pred_prob = 0.649
+Level 5: total_patients = 2,450 | num_pos = 65 | pct_pos = 0.026531 | avg_pred_prob = 0.737
+Level 6: total_patients = 2,572 | num_pos = 117 | pct_pos = 0.045490 | avg_pred_prob = 0.811
+Level 7: total_patients = 2,584 | num_pos = 179 | pct_pos = 0.069272 | avg_pred_prob = 0.873
+Level 8: total_patients = 2,415 | num_pos = 296 | pct_pos = 0.122567 | avg_pred_prob = 0.921
+Level 9: total_patients = 2,497 | num_pos = 641 | pct_pos = 0.256708 | avg_pred_prob = 0.960
+Level 10: total_patients = 1,172 | num_pos = 505 | pct_pos = 0.430887 | avg_pred_prob = 0.980
+Level 11: total_patients = 929 | num_pos = 527 | pct_pos = 0.567277 | avg_pred_prob = 0.989
+Level 12: total_patients = 203 | num_pos = 162 | pct_pos = 0.798030 | avg_pred_prob = 0.995
+
+----------------- Fold 6/12 -----------------
+
+t1 = 0.37, t2 = 0.51, t3 = 0.62, t4 = 0.71, t5 = 0.78, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,399 | num_pos = 4 | pct_pos = 0.001667 | avg_pred_prob = 0.274
+Level 2: total_patients = 2,605 | num_pos = 12 | pct_pos = 0.004607 | avg_pred_prob = 0.442
+Level 3: total_patients = 2,544 | num_pos = 22 | pct_pos = 0.008648 | avg_pred_prob = 0.564
+Level 4: total_patients = 2,545 | num_pos = 44 | pct_pos = 0.017289 | avg_pred_prob = 0.665
+Level 5: total_patients = 2,418 | num_pos = 81 | pct_pos = 0.033499 | avg_pred_prob = 0.748
+Level 6: total_patients = 2,420 | num_pos = 92 | pct_pos = 0.038017 | avg_pred_prob = 0.818
+Level 7: total_patients = 2,380 | num_pos = 174 | pct_pos = 0.073109 | avg_pred_prob = 0.875
+Level 8: total_patients = 2,454 | num_pos = 307 | pct_pos = 0.125102 | avg_pred_prob = 0.921
+Level 9: total_patients = 2,441 | num_pos = 550 | pct_pos = 0.225317 | avg_pred_prob = 0.957
+Level 10: total_patients = 1,291 | num_pos = 497 | pct_pos = 0.384973 | avg_pred_prob = 0.979
+Level 11: total_patients = 1,053 | num_pos = 615 | pct_pos = 0.584046 | avg_pred_prob = 0.988
+Level 12: total_patients = 254 | num_pos = 184 | pct_pos = 0.724409 | avg_pred_prob = 0.994
+
+----------------- Fold 7/12 -----------------
+
+t1 = 0.34, t2 = 0.48, t3 = 0.59, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,266 | num_pos = 1 | pct_pos = 0.000441 | avg_pred_prob = 0.247
+Level 2: total_patients = 2,571 | num_pos = 10 | pct_pos = 0.003890 | avg_pred_prob = 0.414
+Level 3: total_patients = 2,414 | num_pos = 25 | pct_pos = 0.010356 | avg_pred_prob = 0.538
+Level 4: total_patients = 2,404 | num_pos = 48 | pct_pos = 0.019967 | avg_pred_prob = 0.640
+Level 5: total_patients = 2,601 | num_pos = 53 | pct_pos = 0.020377 | avg_pred_prob = 0.730
+Level 6: total_patients = 2,494 | num_pos = 111 | pct_pos = 0.044507 | avg_pred_prob = 0.806
+Level 7: total_patients = 2,473 | num_pos = 158 | pct_pos = 0.063890 | avg_pred_prob = 0.868
+Level 8: total_patients = 2,519 | num_pos = 311 | pct_pos = 0.123462 | avg_pred_prob = 0.919
+Level 9: total_patients = 2,561 | num_pos = 610 | pct_pos = 0.238188 | avg_pred_prob = 0.958
+Level 10: total_patients = 1,362 | num_pos = 555 | pct_pos = 0.407489 | avg_pred_prob = 0.980
+Level 11: total_patients = 950 | num_pos = 566 | pct_pos = 0.595789 | avg_pred_prob = 0.990
+Level 12: total_patients = 189 | num_pos = 134 | pct_pos = 0.708995 | avg_pred_prob = 0.995
+
+----------------- Fold 8/12 -----------------
+
+t1 = 0.37, t2 = 0.50, t3 = 0.61, t4 = 0.70, t5 = 0.78, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,422 | num_pos = 2 | pct_pos = 0.000826 | avg_pred_prob = 0.269
+Level 2: total_patients = 2,497 | num_pos = 13 | pct_pos = 0.005206 | avg_pred_prob = 0.438
+Level 3: total_patients = 2,532 | num_pos = 17 | pct_pos = 0.006714 | avg_pred_prob = 0.558
+Level 4: total_patients = 2,554 | num_pos = 41 | pct_pos = 0.016053 | avg_pred_prob = 0.657
+Level 5: total_patients = 2,458 | num_pos = 69 | pct_pos = 0.028072 | avg_pred_prob = 0.742
+Level 6: total_patients = 2,521 | num_pos = 106 | pct_pos = 0.042047 | avg_pred_prob = 0.815
+Level 7: total_patients = 2,443 | num_pos = 158 | pct_pos = 0.064675 | avg_pred_prob = 0.873
+Level 8: total_patients = 2,521 | num_pos = 320 | pct_pos = 0.126934 | avg_pred_prob = 0.921
+Level 9: total_patients = 2,464 | num_pos = 603 | pct_pos = 0.244724 | avg_pred_prob = 0.959
+Level 10: total_patients = 1,210 | num_pos = 519 | pct_pos = 0.428926 | avg_pred_prob = 0.980
+Level 11: total_patients = 987 | num_pos = 578 | pct_pos = 0.585613 | avg_pred_prob = 0.989
+Level 12: total_patients = 195 | num_pos = 156 | pct_pos = 0.800000 | avg_pred_prob = 0.995
+
+----------------- Fold 9/12 -----------------
+
+t1 = 0.39, t2 = 0.52, t3 = 0.63, t4 = 0.72, t5 = 0.79, t6 = 0.85, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.98, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,355 | num_pos = 5 | pct_pos = 0.002123 | avg_pred_prob = 0.293
+Level 2: total_patients = 2,652 | num_pos = 11 | pct_pos = 0.004148 | avg_pred_prob = 0.459
+Level 3: total_patients = 2,547 | num_pos = 26 | pct_pos = 0.010208 | avg_pred_prob = 0.578
+Level 4: total_patients = 2,673 | num_pos = 57 | pct_pos = 0.021324 | avg_pred_prob = 0.676
+Level 5: total_patients = 2,493 | num_pos = 56 | pct_pos = 0.022463 | avg_pred_prob = 0.756
+Level 6: total_patients = 2,477 | num_pos = 107 | pct_pos = 0.043197 | avg_pred_prob = 0.823
+Level 7: total_patients = 2,376 | num_pos = 168 | pct_pos = 0.070707 | avg_pred_prob = 0.877
+Level 8: total_patients = 2,390 | num_pos = 312 | pct_pos = 0.130544 | avg_pred_prob = 0.922
+Level 9: total_patients = 2,373 | num_pos = 590 | pct_pos = 0.248630 | avg_pred_prob = 0.958
+Level 10: total_patients = 1,231 | num_pos = 493 | pct_pos = 0.400487 | avg_pred_prob = 0.979
+Level 11: total_patients = 1,024 | num_pos = 592 | pct_pos = 0.578125 | avg_pred_prob = 0.988
+Level 12: total_patients = 213 | num_pos = 165 | pct_pos = 0.774648 | avg_pred_prob = 0.994
+
+----------------- Fold 10/12 -----------------
+
+t1 = 0.35, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,366 | num_pos = 5 | pct_pos = 0.002113 | avg_pred_prob = 0.257
+Level 2: total_patients = 2,493 | num_pos = 11 | pct_pos = 0.004412 | avg_pred_prob = 0.424
+Level 3: total_patients = 2,499 | num_pos = 21 | pct_pos = 0.008403 | avg_pred_prob = 0.545
+Level 4: total_patients = 2,386 | num_pos = 53 | pct_pos = 0.022213 | avg_pred_prob = 0.647
+Level 5: total_patients = 2,494 | num_pos = 73 | pct_pos = 0.029270 | avg_pred_prob = 0.732
+Level 6: total_patients = 2,454 | num_pos = 91 | pct_pos = 0.037082 | avg_pred_prob = 0.808
+Level 7: total_patients = 2,539 | num_pos = 187 | pct_pos = 0.073651 | avg_pred_prob = 0.870
+Level 8: total_patients = 2,581 | num_pos = 328 | pct_pos = 0.127083 | avg_pred_prob = 0.920
+Level 9: total_patients = 2,507 | num_pos = 592 | pct_pos = 0.236139 | avg_pred_prob = 0.959
+Level 10: total_patients = 1,315 | num_pos = 516 | pct_pos = 0.392395 | avg_pred_prob = 0.981
+Level 11: total_patients = 974 | num_pos = 574 | pct_pos = 0.589322 | avg_pred_prob = 0.990
+Level 12: total_patients = 196 | num_pos = 131 | pct_pos = 0.668367 | avg_pred_prob = 0.995
+
+----------------- Fold 11/12 -----------------
+
+t1 = 0.36, t2 = 0.49, t3 = 0.60, t4 = 0.69, t5 = 0.77, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,292 | num_pos = 8 | pct_pos = 0.003490 | avg_pred_prob = 0.261
+Level 2: total_patients = 2,583 | num_pos = 15 | pct_pos = 0.005807 | avg_pred_prob = 0.426
+Level 3: total_patients = 2,577 | num_pos = 28 | pct_pos = 0.010865 | avg_pred_prob = 0.545
+Level 4: total_patients = 2,417 | num_pos = 43 | pct_pos = 0.017791 | avg_pred_prob = 0.648
+Level 5: total_patients = 2,534 | num_pos = 57 | pct_pos = 0.022494 | avg_pred_prob = 0.734
+Level 6: total_patients = 2,432 | num_pos = 105 | pct_pos = 0.043174 | avg_pred_prob = 0.809
+Level 7: total_patients = 2,472 | num_pos = 186 | pct_pos = 0.075243 | avg_pred_prob = 0.871
+Level 8: total_patients = 2,544 | num_pos = 329 | pct_pos = 0.129324 | avg_pred_prob = 0.920
+Level 9: total_patients = 2,546 | num_pos = 595 | pct_pos = 0.233700 | avg_pred_prob = 0.959
+Level 10: total_patients = 1,300 | num_pos = 548 | pct_pos = 0.421538 | avg_pred_prob = 0.980
+Level 11: total_patients = 925 | num_pos = 522 | pct_pos = 0.564324 | avg_pred_prob = 0.989
+Level 12: total_patients = 182 | num_pos = 146 | pct_pos = 0.802198 | avg_pred_prob = 0.995
+
+----------------- Fold 12/12 -----------------
+
+t1 = 0.32, t2 = 0.46, t3 = 0.58, t4 = 0.68, t5 = 0.77, t6 = 0.84, t7 = 0.90, t8 = 0.94, t9 = 0.97, t10 = 0.99, t11 = 0.99
+
+Risk-level summary (on the test set):
+Level 1: total_patients = 2,421 | num_pos = 3 | pct_pos = 0.001239 | avg_pred_prob = 0.229
+Level 2: total_patients = 2,528 | num_pos = 8 | pct_pos = 0.003165 | avg_pred_prob = 0.396
+Level 3: total_patients = 2,521 | num_pos = 24 | pct_pos = 0.009520 | avg_pred_prob = 0.524
+Level 4: total_patients = 2,428 | num_pos = 41 | pct_pos = 0.016886 | avg_pred_prob = 0.631
+Level 5: total_patients = 2,502 | num_pos = 64 | pct_pos = 0.025580 | avg_pred_prob = 0.724
+Level 6: total_patients = 2,512 | num_pos = 93 | pct_pos = 0.037022 | avg_pred_prob = 0.804
+Level 7: total_patients = 2,403 | num_pos = 158 | pct_pos = 0.065751 | avg_pred_prob = 0.870
+Level 8: total_patients = 2,467 | num_pos = 317 | pct_pos = 0.128496 | avg_pred_prob = 0.920
+Level 9: total_patients = 2,494 | num_pos = 609 | pct_pos = 0.244186 | avg_pred_prob = 0.959
+Level 10: total_patients = 1,235 | num_pos = 493 | pct_pos = 0.399190 | avg_pred_prob = 0.980
+Level 11: total_patients = 1,074 | num_pos = 600 | pct_pos = 0.558659 | avg_pred_prob = 0.989
+Level 12: total_patients = 219 | num_pos = 172 | pct_pos = 0.785388 | avg_pred_prob = 0.995
+
+--- Average risk classification summary across all folds:
+       Level  total_patients     num_pos  pct_pos  avg_pred_prob      t1  \
+0    Level 1       2379.8333    4.500000   0.0019         0.2608  0.3571   
+1    Level 2       2533.4167   11.666700   0.0046         0.4279  0.3571   
+2    Level 3       2519.6667   23.250000   0.0092         0.5499  0.3571   
+3    Level 4       2480.4167   47.416698   0.0191         0.6517  0.3571   
+4    Level 5       2492.7500   62.416698   0.0251         0.7381  0.3571   
+5    Level 6       2495.8333  105.500000   0.0422         0.8115  0.3571   
+6    Level 7       2469.4167  170.833298   0.0692         0.8720  0.3571   
+7    Level 8       2487.3333  312.666595   0.1257         0.9205  0.3571   
+8    Level 9       2481.9167  605.666687   0.2441         0.9585  0.3571   
+9   Level 10       1272.5000  518.250000   0.4075         0.9797  0.3571   
+10  Level 11        985.0000  565.333313   0.5738         0.9889  0.3571   
+11  Level 12        205.9167  154.500000   0.7506         0.9946  0.3571   
+
+        t2      t3      t4      t5      t6     t7      t8      t9    t10  \
+0   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+1   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+2   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+3   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+4   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+5   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+6   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+7   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+8   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+9   0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+10  0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+11  0.4933  0.6036  0.6973  0.7769  0.8439  0.898  0.9412  0.9739  0.985   
+
+       t11  
+0   0.9931  
+1   0.9931  
+2   0.9931  
+3   0.9931  
+4   0.9931  
+5   0.9931  
+6   0.9931  
+7   0.9931  
+8   0.9931  
+9   0.9931  
+10  0.9931  
+11  0.9931  
+Job finished on Mon Jun  8 12:17:36 PM EDT 2026
