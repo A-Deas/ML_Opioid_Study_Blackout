@@ -1,0 +1,161 @@
+-- AdverseOpioidEvent:
+'ICD10', 'Prefix', 'F11.1'
+'ICD10', 'Prefix', 'F11.2' 
+
+-- Keep on the inital encounter T40's (A codes) for now and drop all X5 and X6's
+'ICD10', 'Exact', 'T40.0X1A' -- opium codes
+'ICD10', 'Exact', 'T40.0X2A'
+'ICD10', 'Exact', 'T40.0X3A'
+'ICD10', 'Exact', 'T40.0X4A'
+
+'ICD10', 'Exact', 'T40.1X1A' -- heroin codes
+'ICD10', 'Exact', 'T40.1X2A'
+'ICD10', 'Exact', 'T40.1X3A'
+'ICD10', 'Exact', 'T40.1X4A'
+
+'ICD10', 'Exact', 'T40.2X1A' -- other opioids codes
+'ICD10', 'Exact', 'T40.2X2A'
+'ICD10', 'Exact', 'T40.2X3A'
+'ICD10', 'Exact', 'T40.2X4A'
+
+'ICD10', 'Exact', 'T40.3X1A' -- methadone codes
+'ICD10', 'Exact', 'T40.3X2A'
+'ICD10', 'Exact', 'T40.3X3A'
+'ICD10', 'Exact', 'T40.3X4A'
+
+-- Old T40.4 codes, valid until ~ end of 2020
+'ICD10', 'Exact', 'T40.4X1A' -- other synthetic narcotics
+'ICD10', 'Exact', 'T40.4X2A'
+'ICD10', 'Exact', 'T40.4X3A'
+'ICD10', 'Exact', 'T40.4X4A'
+
+-- New T40 codes, began ~ end of 2020
+'ICD10', 'Exact', 'T40.411A' -- fentanyl codes
+'ICD10', 'Exact', 'T40.412A'
+'ICD10', 'Exact', 'T40.413A'
+'ICD10', 'Exact', 'T40.414A'
+
+'ICD10', 'Exact', 'T40.421A' -- tramadol codes
+'ICD10', 'Exact', 'T40.422A'
+'ICD10', 'Exact', 'T40.423A'
+'ICD10', 'Exact', 'T40.424A'
+
+'ICD10', 'Exact', 'T40.491A' -- other synthetic narcotic codes
+'ICD10', 'Exact', 'T40.492A'
+'ICD10', 'Exact', 'T40.493A'
+'ICD10', 'Exact', 'T40.494A'
+
+-- Malignant Cancer:
+'ICD10', 'Prefix', 'C0'
+'ICD10', 'Prefix', 'C1'
+'ICD10', 'Prefix', 'C2'
+'ICD10', 'Prefix', 'C3'
+'ICD10', 'Prefix', 'C40'
+'ICD10', 'Prefix', 'C41'
+'ICD10', 'Prefix', 'C42'
+'ICD10', 'Prefix', 'C43'
+-- skip C44
+'ICD10', 'Prefix', 'C45'
+'ICD10', 'Prefix', 'C46'
+'ICD10', 'Prefix', 'C47'
+'ICD10', 'Prefix', 'C48'
+'ICD10', 'Prefix', 'C49'
+'ICD10', 'Prefix', 'C5'
+'ICD10', 'Prefix', 'C6'
+'ICD10', 'Prefix', 'C7'
+'ICD10', 'Prefix', 'C8'
+'ICD10', 'Prefix', 'C9'
+
+-- Sickle Cell:
+'ICD10', 'Prefix', 'D57'
+
+-- ADHD:
+'ICD10', 'Prefix', 'F90'
+
+-- AlcoholUse:
+'ICD10', 'Prefix', 'F10'
+
+-- Anxiety:
+'ICD10', 'Prefix', 'F40'
+'ICD10', 'Prefix', 'F41'
+
+-- Arthritis:
+'ICD10', 'Prefix', 'M15'
+'ICD10', 'Prefix', 'M16'
+'ICD10', 'Prefix', 'M17'
+'ICD10', 'Prefix', 'M18'
+'ICD10', 'Prefix', 'M19'
+
+-- Asthma:
+'ICD10', 'Prefix', 'J45'
+
+-- BipolarDisorder:
+'ICD10', 'Prefix', 'F31'
+
+-- COPD:
+'ICD10', 'Prefix', 'J44'
+
+-- CannabisUse:
+'ICD10', 'Prefix', 'F12'
+
+-- ChronicBackPain:
+'ICD10', 'Prefix', 'M47'
+'ICD10', 'Prefix', 'M48'
+'ICD10', 'Prefix', 'M51'
+'ICD10', 'Prefix', 'M54'
+
+-- PainNEC (not elsewhere classified):
+'ICD10', 'Prefix', 'G89'
+'ICD10', 'Prefix', 'R52'
+
+-- CocaineUse:
+'ICD10', 'Prefix', 'F14'
+
+-- Depression:
+'ICD10', 'Prefix', 'F32'
+'ICD10', 'Prefix', 'F33'
+'ICD10', 'Exact', 'F34.1'
+
+-- Diabetes:
+'ICD10', 'Prefix', 'E11'
+
+-- EatingDisorder:
+'ICD10', 'Prefix', 'F50'
+
+-- FamilyDisruption:
+'ICD10', 'Prefix', 'Z63'
+
+-- HallucinogenUse:
+'ICD10', 'Prefix', 'F16'
+
+-- HeartFailure:
+'ICD10', 'Prefix', 'I50'
+
+-- HepC:
+'ICD10', 'Prefix', 'B17.1'
+'ICD10', 'Prefix', 'B18.2'
+'ICD10', 'Prefix', 'B19.2'
+'ICD10', 'Exact',  'Z22.52'
+
+-- HIV (these codes are super weird, should be exact but trailing periods across the database require we search with 'Prefix' instead of 'Exact')
+'ICD10', 'Prefix', 'B20' -- database only has B20. entries
+'ICD10', 'Prefix', 'Z21' -- database only has Z21. entries
+
+-- MyofascialPain:
+'ICD10', 'Prefix', 'M79.1'
+'ICD10', 'Exact', 'M79.7'
+
+-- Obesity: 
+'ICD10', 'Prefix', 'E66'
+
+-- PTSD: 
+'ICD10', 'Prefix', 'F43.1'
+
+-- Schizophrenia: 
+'ICD10', 'Prefix', 'F20'
+
+-- StimulantUse: 
+'ICD10', 'Prefix', 'F15'
+
+-- TobaccoUse: 
+'ICD10', 'Prefix', 'F17'
